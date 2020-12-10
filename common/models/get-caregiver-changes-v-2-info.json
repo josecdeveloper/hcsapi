@@ -1,0 +1,207 @@
+{
+  "name": "GetCaregiverChangesV2Info",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AgencyID": {
+      "type": "number"
+    },
+    "OfficeID": {
+      "type": "number"
+    },
+    "CaregiverID": {
+      "type": "number"
+    },
+    "ModifiedDate": {
+      "type": "string"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "MiddleName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Initials": {
+      "type": "string"
+    },
+    "Gender": {
+      "type": "string"
+    },
+    "DateofBirth": {
+      "type": "string"
+    },
+    "CaregiverCode": {
+      "type": "string"
+    },
+    "AlternateCaregiverCode": {
+      "type": "string"
+    },
+    "TimeAndAttendancePIN": {
+      "type": "string"
+    },
+    "SSN": {
+      "type": "string"
+    },
+    "Ethnicity": {
+      "type": "string"
+    },
+    "CaregiverMobileID": {
+      "type": "string"
+    },
+    "CaregiverMobileIDType": {
+      "type": "string"
+    },
+    "Rehire": {
+      "type": "string"
+    },
+    "RehireDate": {
+      "type": "string"
+    },
+    "CountryOfBirth": {
+      "type": "string"
+    },
+    "MaritalStatus": {
+      "type": "string"
+    },
+    "Dependents": {
+      "type": "string"
+    },
+    "EmployeeType": {
+      "type": "string"
+    },
+    "Status": {
+      "type": "string"
+    },
+    "StatusReason": {
+      "type": "number"
+    },
+    "StatusNote": {
+      "type": "string"
+    },
+    "TerminatedDate": {
+      "type": "string"
+    },
+    "EmploymentTypes": {
+      "type": "EmploymentTypes"
+    },
+    "Sent105": {
+      "type": "string"
+    },
+    "EmployeeID": {
+      "type": "string"
+    },
+    "ApplicationDate": {
+      "type": "string"
+    },
+    "TeamID": {
+      "type": "number"
+    },
+    "LocationID": {
+      "type": "number"
+    },
+    "BranchID": {
+      "type": "number"
+    },
+    "Payer": {
+      "type": "string"
+    },
+    "Registrynumber": {
+      "type": "string"
+    },
+    "RegistryDate": {
+      "type": "string"
+    },
+    "ReferralSourceID": {
+      "type": "number"
+    },
+    "ReferralPerson": {
+      "type": "string"
+    },
+    "SignedPayrollAgreement": {
+      "type": "string"
+    },
+    "SignedPayrollAgreementDate": {
+      "type": "string"
+    },
+    "ExclusionListCheckedOn": {
+      "type": "string"
+    },
+    "ExclusionListStatus": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "AddressV2"
+    },
+    "EmergencyContact1": {
+      "type": "CaregiverEmergencyContactV2"
+    },
+    "EmergencyContact2": {
+      "type": "CaregiverEmergencyContactV2"
+    },
+    "NotificationPreferences": {
+      "type": "NotificationPreferences"
+    },
+    "HireDate": {
+      "type": "string"
+    },
+    "I9ABDocumentID": {
+      "type": "number"
+    },
+    "I9CDocumentID": {
+      "type": "number"
+    },
+    "I9Verified": {
+      "type": "string"
+    },
+    "I9DocumentExpiration": {
+      "type": "string"
+    },
+    "I9Notes": {
+      "type": "string"
+    },
+    "I9EVerifyNumber": {
+      "type": "string"
+    },
+    "ProfessionalLicensenumber": {
+      "type": "string"
+    },
+    "NPInumber": {
+      "type": "string"
+    },
+    "Language1": {
+      "type": "number"
+    },
+    "Language2": {
+      "type": "number"
+    },
+    "Language3": {
+      "type": "number"
+    },
+    "Language4": {
+      "type": "number"
+    },
+    "Other": {
+      "type": "string"
+    },
+    "FirstWorkDate": {
+      "type": "string"
+    },
+    "LastWorkDate": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

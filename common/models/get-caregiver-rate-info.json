@@ -1,0 +1,51 @@
+{
+  "name": "GetCaregiverRateInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverRateID": {
+      "type": "number"
+    },
+    "CaregiverID": {
+      "type": "number"
+    },
+    "Discipline": {
+      "type": "string"
+    },
+    "PayCodeID": {
+      "type": "number"
+    },
+    "PatientID": {
+      "type": "number"
+    },
+    "FromDate": {
+      "type": "string"
+    },
+    "ToDate": {
+      "type": "string"
+    },
+    "HourlyRate": {
+      "type": "number"
+    },
+    "DailyRate": {
+      "type": "number"
+    },
+    "VisitRate": {
+      "type": "number"
+    },
+    "Status": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

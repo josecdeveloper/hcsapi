@@ -1,0 +1,24 @@
+{
+  "name": "UpdatePatientPOC",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authentication": {
+      "type": "AppParams"
+    },
+    "PatientPOCInfo": {
+      "type": "UpdatePatientPOCInfo"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

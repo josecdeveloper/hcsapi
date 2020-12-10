@@ -1,0 +1,27 @@
+{
+  "name": "UpdateCaregiverDocumentResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Result": {
+      "type": "Result"
+    },
+    "CaregiverID": {
+      "type": "number"
+    },
+    "CaregiverDocID": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

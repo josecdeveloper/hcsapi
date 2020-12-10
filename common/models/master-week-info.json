@@ -1,0 +1,51 @@
+{
+  "name": "MasterWeekInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "MasterWeekID": {
+      "type": "number"
+    },
+    "PatientID": {
+      "type": "number"
+    },
+    "FromDate": {
+      "type": "string"
+    },
+    "ToDate": {
+      "type": "string"
+    },
+    "Sunday": {
+      "type": "MasterWeekDayInfo"
+    },
+    "Monday": {
+      "type": "MasterWeekDayInfo"
+    },
+    "Tuesday": {
+      "type": "MasterWeekDayInfo"
+    },
+    "Wednesday": {
+      "type": "MasterWeekDayInfo"
+    },
+    "Thursday": {
+      "type": "MasterWeekDayInfo"
+    },
+    "Friday": {
+      "type": "MasterWeekDayInfo"
+    },
+    "Saturday": {
+      "type": "MasterWeekDayInfo"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

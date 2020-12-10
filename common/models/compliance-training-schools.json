@@ -1,0 +1,23 @@
+{
+  "name": "ComplianceTrainingSchools",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "TrainingSchoolInfo": {
+      "type": [
+        "ComplianceTrainingSchoolInfo"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

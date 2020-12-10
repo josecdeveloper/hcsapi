@@ -1,0 +1,36 @@
+{
+  "name": "PayRateCodesInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PayRateCodeID": {
+      "type": "number"
+    },
+    "PayRateCodeName": {
+      "type": "string"
+    },
+    "Discipline": {
+      "type": "string"
+    },
+    "DisciplineID": {
+      "type": "number"
+    },
+    "Offices": {
+      "type": "OfficesData"
+    },
+    "Active": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

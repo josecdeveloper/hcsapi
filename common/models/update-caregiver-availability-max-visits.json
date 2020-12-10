@@ -1,0 +1,24 @@
+{
+  "name": "UpdateCaregiverAvailabilityMaxVisits",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authentication": {
+      "type": "AppParams"
+    },
+    "AvailabilityMaxVisitsInfo": {
+      "type": "AvailabilityMaxVisitsInfo"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

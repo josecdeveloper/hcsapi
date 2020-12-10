@@ -1,0 +1,27 @@
+{
+  "name": "AppParams",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AppName": {
+      "type": "string"
+    },
+    "AppSecret": {
+      "type": "string"
+    },
+    "AppKey": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

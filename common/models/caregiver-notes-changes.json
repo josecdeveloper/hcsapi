@@ -1,0 +1,23 @@
+{
+  "name": "CaregiverNotesChanges",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverNoteInfo": {
+      "type": [
+        "CaregiverNoteChanges"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

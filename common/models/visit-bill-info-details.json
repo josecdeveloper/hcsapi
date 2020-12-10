@@ -1,0 +1,54 @@
+{
+  "name": "VisitBillInfoDetails",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ID": {
+      "type": "number"
+    },
+    "VisitDate": {
+      "type": "string"
+    },
+    "Patient": {
+      "type": "Patient"
+    },
+    "Caregiver": {
+      "type": "NewCaregiver"
+    },
+    "ScheduleStartTime": {
+      "type": "string"
+    },
+    "ScheduleEndTime": {
+      "type": "string"
+    },
+    "VisitStartTime": {
+      "type": "string"
+    },
+    "VisitEndTime": {
+      "type": "string"
+    },
+    "IsMissedVisit": {
+      "type": "string"
+    },
+    "TTOT": {
+      "type": "TTOT"
+    },
+    "PrimaryBillTo": {
+      "type": "PrimaryVisitBillTo"
+    },
+    "SecondaryBillTo": {
+      "type": "SecondaryVisitBillTo"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

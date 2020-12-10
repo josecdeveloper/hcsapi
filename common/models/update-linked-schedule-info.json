@@ -1,0 +1,63 @@
+{
+  "name": "UpdateLinkedScheduleInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "VisitID": {
+      "type": "number"
+    },
+    "ScheduleStartTime": {
+      "type": "string"
+    },
+    "ScheduleEndTime": {
+      "type": "string"
+    },
+    "CaregiverID": {
+      "type": "number"
+    },
+    "CaregiverCode": {
+      "type": "string"
+    },
+    "CaregiverFirstName": {
+      "type": "string"
+    },
+    "CaregiverLastName": {
+      "type": "string"
+    },
+    "CaregiverDateOfBirth": {
+      "type": "dateTime"
+    },
+    "PayCodeID": {
+      "type": "number"
+    },
+    "PayCodeName": {
+      "type": "string"
+    },
+    "ServiceCodeID": {
+      "type": "number"
+    },
+    "ServiceCodeName": {
+      "type": "string"
+    },
+    "Comments": {
+      "type": "string"
+    },
+    "ScheduleBillInfoEditReasonsID": {
+      "type": "number"
+    },
+    "Note": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

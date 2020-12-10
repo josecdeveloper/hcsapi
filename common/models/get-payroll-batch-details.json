@@ -1,0 +1,33 @@
+{
+  "name": "GetPayrollBatchDetails",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authentication": {
+      "type": "AppParams"
+    },
+    "BatchID": {
+      "type": "number"
+    },
+    "CaregiverID": {
+      "type": "number"
+    },
+    "ExcludeZeroAmount": {
+      "type": "string"
+    },
+    "GroupByVisit": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

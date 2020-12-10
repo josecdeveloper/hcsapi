@@ -1,0 +1,23 @@
+{
+  "name": "InServiceInstructors",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "InServiceInstructorsInfo": {
+      "type": [
+        "InServiceInstructorsInfo"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

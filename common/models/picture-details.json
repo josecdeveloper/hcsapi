@@ -1,0 +1,27 @@
+{
+  "name": "PictureDetails",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "FileName": {
+      "type": "string"
+    },
+    "StreamData": {
+      "type": "string"
+    },
+    "FileSize": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

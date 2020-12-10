@@ -1,0 +1,27 @@
+{
+  "name": "CreateAdditionalRule",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "MaximumVisits": {
+      "type": "number"
+    },
+    "Period": {
+      "type": "string"
+    },
+    "OfXHours": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

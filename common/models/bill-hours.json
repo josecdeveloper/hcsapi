@@ -1,0 +1,30 @@
+{
+  "name": "BillHours",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Minutes": {
+      "type": "number"
+    },
+    "Payrate": {
+      "type": "number"
+    },
+    "Amount": {
+      "type": "number"
+    },
+    "PayCode": {
+      "type": "PayCode"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

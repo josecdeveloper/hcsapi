@@ -1,0 +1,3396 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "soap_wsSoap": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetEvaluationCodes": {
+    "dataSource": null,
+    "public": true
+  },
+  "AppParams": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetEvaluationCodesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "Result": {
+    "dataSource": null,
+    "public": true
+  },
+  "ErrorInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "EvaluationCodes": {
+    "dataSource": null,
+    "public": true
+  },
+  "EvaluationCodesInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetInServiceTopics": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetInServiceTopicsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "InServiceTopics": {
+    "dataSource": null,
+    "public": true
+  },
+  "InServiceTopicsInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetInServiceInstructors": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetInServiceInstructorsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "InServiceInstructors": {
+    "dataSource": null,
+    "public": true
+  },
+  "InServiceInstructorsInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetInServiceNoShowReason": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetInServiceNoShowReasonResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "InServiceNoShowReason": {
+    "dataSource": null,
+    "public": true
+  },
+  "InServiceNoShowReasonInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPOCTasks": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPOCTasksResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetVisitDeleteReasons": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetVisitDeleteReasonsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "VisitDeleteReasons": {
+    "dataSource": null,
+    "public": true
+  },
+  "VisitDeleteReasonInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPayers": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPayersResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PayersResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PayerInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "OfficesData": {
+    "dataSource": null,
+    "public": true
+  },
+  "ItemInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverDocumentType": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverDocumentTypeResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverDocumentTypes": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverDocumentType": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetGenders": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetGendersResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "Genders": {
+    "dataSource": null,
+    "public": true
+  },
+  "GenderInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetContractDischargeReason": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetContractDischargeReasonResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ContractDischargeReason": {
+    "dataSource": null,
+    "public": true
+  },
+  "ContractDischargeReasonInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetReferralStatus": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetReferralStatusResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetReferralSalesStaff": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetReferralSalesStaffResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetReferralSourceContact": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetReferralSourceContactResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetReferralLostReason": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetReferralLostReasonResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetReferralSourceType": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetReferralSourceTypeResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetMissedVisitReasons": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetMissedVisitReasonsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "MissedVisitReasonsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "MissedVisitReasons": {
+    "dataSource": null,
+    "public": true
+  },
+  "MissedVisitReasonsInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetMissedVisitActionTaken": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetMissedVisitActionTakenResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "MissedVisitActionTakenResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "MissedVisitActionTaken": {
+    "dataSource": null,
+    "public": true
+  },
+  "MissedVisitActionTakenInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRefusedDutyReason": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRefusedDutyReasonResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "RefusedDutyReasonCodeResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "RefusedDutyReasonCode": {
+    "dataSource": null,
+    "public": true
+  },
+  "RefusedDutyReasonInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetI9ColumnCDocument": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetI9ColumnCDocumentResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverPTOAccrualTypes": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverPTOAccrualTypesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverGender": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverGenderResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverGender": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientCaregiverPreferences": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetSchedulingPreferences": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientCaregiverPreferencesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetSchedulingPreferencesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetSchedulingPreferenceInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverGenderForPatientPreference": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverGenderForPatientPreferenceResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverGenderForPatientPreferenceInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchPhoneNumber": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchPhoneNumberSearchFilter": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchPhoneNumberResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientPhoneNumberResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "CoordinatorData": {
+    "dataSource": null,
+    "public": true
+  },
+  "DisciplineInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverPhoneNumberResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientChanges": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientChangesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientChanges": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientChangesInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "AlternateBilling": {
+    "dataSource": null,
+    "public": true
+  },
+  "EmergencyContact": {
+    "dataSource": null,
+    "public": true
+  },
+  "EmergencyPreparedness": {
+    "dataSource": null,
+    "public": true
+  },
+  "Coordinators": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientChangesV2": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientChangesV2Response": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientChangesV2Info": {
+    "dataSource": null,
+    "public": true
+  },
+  "AlternateBillingV2": {
+    "dataSource": null,
+    "public": true
+  },
+  "EmergencyContactV2": {
+    "dataSource": null,
+    "public": true
+  },
+  "EmergencyPreparednessV2": {
+    "dataSource": null,
+    "public": true
+  },
+  "CoordinatorsV2": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientContractChanges": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientContractChangesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientContractChanges": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientContractInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverChanges": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverChangesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverChanges": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverChangesInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "Discipline": {
+    "dataSource": null,
+    "public": true
+  },
+  "Address": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverEmergencyContact": {
+    "dataSource": null,
+    "public": true
+  },
+  "NotificationPreferences": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverAbsenceChanges": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverAbsenceChangesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverAbsenceChanges": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverAbsenceChangesInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverSpecialAvailabilityChanges": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverSpecialAvailabilityChangesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverSpecialAvailabilityChanges": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverSpecialAvailabilityChangesInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverPermanentWeekAvailabilityChanges": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverPermanentWeekAvailabilityChangesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverPermanentWeekAvailabilityChanges": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverPermanentWeekAvailabilityChangesInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverPreferenceChanges": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverPreferenceChangesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverPreferenceChanges": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverPreferenceChangesInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverPayrollInfoChanges": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverPayrollInfoChangesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PayrollInfoChanges": {
+    "dataSource": null,
+    "public": true
+  },
+  "PayrollInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientNoteChanges": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientNoteChangesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientNoteChanges": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientNoteChangeInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverNoteChanges": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverNoteChangesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverNotesChanges": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverNoteChanges": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCallDashBoardData": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCallDashBoardDataResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "Calls": {
+    "dataSource": null,
+    "public": true
+  },
+  "CallInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "CallInfoCaregiver": {
+    "dataSource": null,
+    "public": true
+  },
+  "CallInfoPatient": {
+    "dataSource": null,
+    "public": true
+  },
+  "CallInfoDutiesPerformed": {
+    "dataSource": null,
+    "public": true
+  },
+  "CallInfoDuty": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchPayrollBatches": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchPayrollBatchesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PayrollBatches": {
+    "dataSource": null,
+    "public": true
+  },
+  "PayrollBatchesInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPayrollBatchDetails": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPayrollBatchDetailsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PayrollBatchDetails": {
+    "dataSource": null,
+    "public": true
+  },
+  "BatchDetail": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchPayrollBatchCaregivers": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchPayrollBatchCaregiversResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PayrollBatchDetailsCaregiver": {
+    "dataSource": null,
+    "public": true
+  },
+  "BatchDetailInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchBilledVisits": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchBilledVisitsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddCollectionNote": {
+    "dataSource": null,
+    "public": true
+  },
+  "CollectionNoteInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddCollectionNoteResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CollectionNotesInfoResult": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCollectionNotes": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCollectionNoteParam": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCollectionNotesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverMedicalProfileCustom": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverCustomMedicalProfiles": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverCustomMedicalProfile": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverMedicalProfileCustomResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverCustomMedicalProfileResults": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverMedicalProfileCustomResultInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "VisitCallInOut": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateVisitInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfDuty": {
+    "dataSource": null,
+    "public": true
+  },
+  "Duty": {
+    "dataSource": null,
+    "public": true
+  },
+  "VisitCallInOutResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchVisits": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchVisit": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchVisitsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "Visits": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetScheduleInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "ScheduleInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetScheduleInfoResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ScheduleInfoResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ScheduleInfoPatient": {
+    "dataSource": null,
+    "public": true
+  },
+  "ScheduleInfoCaregiver": {
+    "dataSource": null,
+    "public": true
+  },
+  "ScheduleInfoPayCode": {
+    "dataSource": null,
+    "public": true
+  },
+  "PrimaryBillTo": {
+    "dataSource": null,
+    "public": true
+  },
+  "Contract": {
+    "dataSource": null,
+    "public": true
+  },
+  "ServiceCode": {
+    "dataSource": null,
+    "public": true
+  },
+  "SecondaryBillTo": {
+    "dataSource": null,
+    "public": true
+  },
+  "DeleteVisit": {
+    "dataSource": null,
+    "public": true
+  },
+  "DeleteVisitInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "DeleteVisitResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetMasterWeeks": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetMasterWeeksResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "MasterWeeks": {
+    "dataSource": null,
+    "public": true
+  },
+  "MasterWeekInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "MasterWeekDayInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateSchedule": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateScheduleInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateScheduleBillTo": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateScheduleResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateSchedule": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateScheduleInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateScheduleBillTo": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateScheduleResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateLinkedSchedule": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateLinkedScheduleInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateLinkedScheduleResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateLinkedSchedule": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateLinkedScheduleInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateLinkedScheduleResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetVisitInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetVisitInfoResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetVisitInfoDetails": {
+    "dataSource": null,
+    "public": true
+  },
+  "Patient": {
+    "dataSource": null,
+    "public": true
+  },
+  "Caregiver": {
+    "dataSource": null,
+    "public": true
+  },
+  "PayCode": {
+    "dataSource": null,
+    "public": true
+  },
+  "TTOT": {
+    "dataSource": null,
+    "public": true
+  },
+  "Verification": {
+    "dataSource": null,
+    "public": true
+  },
+  "Timesheet": {
+    "dataSource": null,
+    "public": true
+  },
+  "TasksPerformed": {
+    "dataSource": null,
+    "public": true
+  },
+  "Task": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetVisitBillInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "VisitBillInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetVisitBillInfoResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "VisitBillInfoDetails": {
+    "dataSource": null,
+    "public": true
+  },
+  "NewCaregiver": {
+    "dataSource": null,
+    "public": true
+  },
+  "PrimaryVisitBillTo": {
+    "dataSource": null,
+    "public": true
+  },
+  "Invoice": {
+    "dataSource": null,
+    "public": true
+  },
+  "SecondaryVisitBillTo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetVisitPayrollInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "VisitPayrollInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetVisitPayrollInfoResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "VisitPayrollInfoDetails": {
+    "dataSource": null,
+    "public": true
+  },
+  "PrimaryContract": {
+    "dataSource": null,
+    "public": true
+  },
+  "BillingServiceCode": {
+    "dataSource": null,
+    "public": true
+  },
+  "BillHours": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetLinkedScheduleInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "LinkedScheduleInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetLinkedScheduleInfoResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "LinkedScheduleInfoResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "LinkedScheduleInfoPatient": {
+    "dataSource": null,
+    "public": true
+  },
+  "LinkedScheduleInfoCaregiver": {
+    "dataSource": null,
+    "public": true
+  },
+  "LinkedScheduleInfoPayCode": {
+    "dataSource": null,
+    "public": true
+  },
+  "LinkedPrimaryBillTo": {
+    "dataSource": null,
+    "public": true
+  },
+  "LinkedContract": {
+    "dataSource": null,
+    "public": true
+  },
+  "LinkedServiceCode": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetVisitInfoV2": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetVisitInfoV2Response": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetVisitInfoResponseV2": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetVisitInfoDetailsV2": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConfirmVisitsV2": {
+    "dataSource": null,
+    "public": true
+  },
+  "VisitV2Info": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConfirmVisitsV2Response": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConfirmVisits": {
+    "dataSource": null,
+    "public": true
+  },
+  "VisitInfoManual": {
+    "dataSource": null,
+    "public": true
+  },
+  "DutyManualList": {
+    "dataSource": null,
+    "public": true
+  },
+  "DutyManual": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConfirmVisitsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConfirmVisitsManualResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConfirmVisitsEVV": {
+    "dataSource": null,
+    "public": true
+  },
+  "VisitEVVInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "ConfirmVisitsEVVResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreatePatientNote": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientNoteInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreatePatientNoteResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientNoteResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreatePatient": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDetails": {
+    "dataSource": null,
+    "public": true
+  },
+  "AcceptedService": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddressInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientAddress": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientAlternateBilling": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientEmergencyContacts": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientEmergencyContact": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientEmergencyPreparedness": {
+    "dataSource": null,
+    "public": true
+  },
+  "ElectricEquipmentDependency": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreatePatientResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePatientDemographics": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicsAcceptedServices": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateAddressInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePatientAddress": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicsAlternateBilling": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicsEmergencyContacts": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicsEmergencyContact": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicsEmergencyPreparedness": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicsElectricEquipmentDependency": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePatientDemographicsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientDemographics": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicsPatientDetails": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientDemographicsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicCoordinators": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicCoordinator": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicNurse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicAcceptedServices": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicSourceOfAdmission": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicTeam": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicLocation": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicBranch": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddressesInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientAddressInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientDemographicAlternateBilling": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicEmergencyContacts": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicEmergencyContact": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicRelationship": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicEmergencyPreparedness": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicEvacuationZone": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicEvacuationLocation": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicMobilityStatus": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicElectricEquipmentDependency": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDemographicElectricEquipment": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchPatients": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchFilters": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchPatientsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "Patients": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientContracts": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientContractsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientContracts": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientContract": {
+    "dataSource": null,
+    "public": true
+  },
+  "ContractDetails": {
+    "dataSource": null,
+    "public": true
+  },
+  "SourceOfAdmission": {
+    "dataSource": null,
+    "public": true
+  },
+  "ServiceCodeDetails": {
+    "dataSource": null,
+    "public": true
+  },
+  "DischargeTo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientNotes": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientNotesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientNotes": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientNote": {
+    "dataSource": null,
+    "public": true
+  },
+  "NoteReason": {
+    "dataSource": null,
+    "public": true
+  },
+  "ReplacementCaregiverInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchPatientPOC": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchPatientPOCFilters": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchPatientPOCResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientPOC": {
+    "dataSource": null,
+    "public": true
+  },
+  "POC": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientPOCInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "POCInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientPOCInfoResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "POCInfoDetails": {
+    "dataSource": null,
+    "public": true
+  },
+  "POCPatient": {
+    "dataSource": null,
+    "public": true
+  },
+  "POCTasks": {
+    "dataSource": null,
+    "public": true
+  },
+  "POCTask": {
+    "dataSource": null,
+    "public": true
+  },
+  "POCCategory": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchPatientAuthorizations": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchPatientAuthorizationsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientAuthorizations": {
+    "dataSource": null,
+    "public": true
+  },
+  "Authorization": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientAuthorizationInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "AuthorizationInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientAuthorizationInfoResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "AuthorizationInfoDetails": {
+    "dataSource": null,
+    "public": true
+  },
+  "AuthorizationPatient": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientAuthContract": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientAuthDiscipline": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientAuthServiceCode": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientAuthPeriod": {
+    "dataSource": null,
+    "public": true
+  },
+  "DailyMaxAuthorization": {
+    "dataSource": null,
+    "public": true
+  },
+  "AdditionalRules": {
+    "dataSource": null,
+    "public": true
+  },
+  "AdditionalRule": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientDisciplines": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientDisciplinesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDisciplines": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDiscipline": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreatePatientAuthorization": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateAuthorizationInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateAdditionalRules": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateAdditionalRule": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreatePatientAuthorizationResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientAuthorization": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePatientAuthorization": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateAuthorizationInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateAdditionalRules": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateAdditionalRule": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePatientAuthorizationResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreatePatientPOC": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientPOCInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreatePOCTasks": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreatePOCTask": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreatePatientPOCResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePatientPOC": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePatientPOCInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePOCTasks": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePOCTask": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePatientPOCResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddPatientContract": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddPatientContractInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddPatientContractResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientDocumentType": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientDocumentTypeResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDocumentTypes": {
+    "dataSource": null,
+    "public": true
+  },
+  "DocumentType": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchPatientDocument": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchPatientDocumentResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDocuments": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDocument": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddPatientDocument": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddPatientDocumentInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddPatientDocumentResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePatientDocument": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePatientDocumentInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePatientDocumentResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "DeletePatientDocument": {
+    "dataSource": null,
+    "public": true
+  },
+  "DeletePatientDocumentResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "DownloadPatientDocument": {
+    "dataSource": null,
+    "public": true
+  },
+  "DownloadPatientDocumentResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDocumentDownload": {
+    "dataSource": null,
+    "public": true
+  },
+  "ChangePatientDocument": {
+    "dataSource": null,
+    "public": true
+  },
+  "ChangePatientDocumentInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "ChangePatientDocumentResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePatientClinicalInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePatientClinicalInfoResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientClinicalInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientClinicalInfoResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientClinicalInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientReferralInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientReferralInfoResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientReferralInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePatientContract": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePatientContractInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePatientContractResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetReferralSource": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetReferralSourceResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetReferralProfile": {
+    "dataSource": null,
+    "public": true
+  },
+  "AllSearchFilter": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetReferralProfileResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePatientReferralInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePatientReferralInfoData": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePatientReferralInfoResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateReferralSource": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateReferralSourceRequestData": {
+    "dataSource": null,
+    "public": true
+  },
+  "OfficeIDList": {
+    "dataSource": null,
+    "public": true
+  },
+  "OfficeID": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateReferralSourceResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateReferralSourceInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientAddress": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientAddressResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientAddresses": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientPreferences": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientPreferencesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientSpecialPreferenceResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientSpecialPreferenceInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverPreferenceDetails": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePatientPreference": {
+    "dataSource": null,
+    "public": true
+  },
+  "SavePatientSpecialPreference": {
+    "dataSource": null,
+    "public": true
+  },
+  "PreferenceList": {
+    "dataSource": null,
+    "public": true
+  },
+  "Preference": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePatientPreferenceResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "SavePatientSpecialPreferenceResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "SavePatientSpecialPreferenceInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateCaregiverNote": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverNoteInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "SendNotifications": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateCaregiverNoteResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverNoteResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateCaregiverMedical": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateCaregiverMedicalInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateCaregiverMedicalResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateCaregiverMedicalResultInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateCaregiverOtherCompliance": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateCaregiverOtherComplianceInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateCaregiverOtherComplianceResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateCaregiverOtherComplianceResultInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateCaregiver": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverDetails": {
+    "dataSource": null,
+    "public": true
+  },
+  "EmploymentTypes": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverAddress": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateCaregiverEmergencyContacts": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateCaregiverEmergencyContact": {
+    "dataSource": null,
+    "public": true
+  },
+  "CareteCaregiverNotificationPreferences": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateCaregiverResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverInfoResult": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverDemographics": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverDetails": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverAddress": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverEmergencyContacts": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverEmergencyContact": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverNotificationPreferences": {
+    "dataSource": null,
+    "public": true
+  },
+  "SecondaryOffices": {
+    "dataSource": null,
+    "public": true
+  },
+  "SecondaryOffice": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverDemographicsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverInfoResult": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchCaregivers": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverSearchFilters": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchCaregiversResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverSearchInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverDemographics": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverDemographicsDetails": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverDemographicsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverDemographicInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "Ethnicity": {
+    "dataSource": null,
+    "public": true
+  },
+  "MaritalStatus": {
+    "dataSource": null,
+    "public": true
+  },
+  "Status": {
+    "dataSource": null,
+    "public": true
+  },
+  "Team": {
+    "dataSource": null,
+    "public": true
+  },
+  "Location": {
+    "dataSource": null,
+    "public": true
+  },
+  "Branch": {
+    "dataSource": null,
+    "public": true
+  },
+  "ReferralSource": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverDemographicAddress": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverDemographicEmergencyContacts": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverDemographicEmergencyContact": {
+    "dataSource": null,
+    "public": true
+  },
+  "CarergiverDemographicRelationship": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverNotificationPreferences": {
+    "dataSource": null,
+    "public": true
+  },
+  "Method": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverOffices": {
+    "dataSource": null,
+    "public": true
+  },
+  "OfficeDetails": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverPermanentWeekAvailability": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverPermanentWeekAvailabilityResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfPermanentWeekAvailabilityInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "PermanentWeekAvailabilityInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddCaregiverPermanentWeekAvailability": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddPermanentWeekAvailabilityInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddCaregiverPermanentWeekAvailabilityResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverPermanentWeekAvailability": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdatePermanentWeekAvailabilityInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverPermanentWeekAvailabilityResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverAvailabilityMaxVisits": {
+    "dataSource": null,
+    "public": true
+  },
+  "AvailabilityMaxVisitsInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverAvailabilityMaxVisitsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverSpecialAvailability": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverSpecialAvailabilityResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "SpecialAvailability": {
+    "dataSource": null,
+    "public": true
+  },
+  "SpecialAvailabilityInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddCaregiverSpecialAvailability": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddSpecialAvailabilityInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddCaregiverSpecialAvailabilityResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverSpecialAvailability": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateSpecialAvailabilityInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverSpecialAvailabilityResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverPayCodes": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverPayCodesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PayCodes": {
+    "dataSource": null,
+    "public": true
+  },
+  "PayCodeInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverNotes": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverNotesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverNotes": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverNote": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientInfo1": {
+    "dataSource": null,
+    "public": true
+  },
+  "Subject": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddCaregiverRate": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverRateInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddCaregiverRateResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverRate": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverRateInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverRateResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverRates": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverRatesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverRates": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverRateInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddCaregiverTrainingSchool": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverTrainingInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddCaregiverTrainingSchoolResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverTrainingSchool": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverTrainingInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverTrainingSchoolResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverTrainingSchools": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverTrainingSchoolsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverTrainingSchoolResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "TrainingSchools": {
+    "dataSource": null,
+    "public": true
+  },
+  "TrainingSchoolInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetComplianceTrainingSchools": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetComplianceTrainingSchoolsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ComplianceTrainingSchools": {
+    "dataSource": null,
+    "public": true
+  },
+  "ComplianceTrainingSchoolInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddCaregiverEvaluation": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddCaregiverEvaluationInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddCaregiverEvaluationResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverEvaluation": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverEvaluationInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverEvaluationResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverEvaluations": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverEvaluationsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverEvaluations": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverEvaluationsInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddCaregiverInService": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddCaregiverInServiceInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "Topics": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddCaregiverInServiceResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverInService": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverInServiceInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverInServiceResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverInServices": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverInServicesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverInServices": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverInServicesInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "Details": {
+    "dataSource": null,
+    "public": true
+  },
+  "Topic": {
+    "dataSource": null,
+    "public": true
+  },
+  "UploadCaregiverPicture": {
+    "dataSource": null,
+    "public": true
+  },
+  "PictureDetails": {
+    "dataSource": null,
+    "public": true
+  },
+  "UploadCaregiverPictureResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "RemoveCaregiverPicture": {
+    "dataSource": null,
+    "public": true
+  },
+  "RemoveCaregiverPictureResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverPreferences": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverPreferencesDetails": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverPreferencesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverPreferencesInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverPreferences": {
+    "dataSource": null,
+    "public": true
+  },
+  "DownloadCaregiverPicture": {
+    "dataSource": null,
+    "public": true
+  },
+  "DownloadCaregiverPictureResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverPictureDownload": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchCaregiverDocument": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchCaregiverDocumentResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverDocuments": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverDocument": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddCaregiverDocument": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddCaregiverDocumentInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddCaregiverDocumentResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverDocument": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverDocumentInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverDocumentResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "DeleteCaregiverDocument": {
+    "dataSource": null,
+    "public": true
+  },
+  "DeleteCaregiverDocumentResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "DownloadCaregiverDocument": {
+    "dataSource": null,
+    "public": true
+  },
+  "DownloadCaregiverDocumentResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverDocumentDownload": {
+    "dataSource": null,
+    "public": true
+  },
+  "ChangeCaregiverDocument": {
+    "dataSource": null,
+    "public": true
+  },
+  "ChangeCaregiverDocumentInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "ChangeCaregiverDocumentResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverChangesV2": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverChangesV2Response": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverChangesV2Info": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddressV2": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverEmergencyContactV2": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverI9Requirements": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverI9RequirementsInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverI9RequirementsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverAccrualPTO": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverAccrualPTOInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateCaregiverAccrualPTOResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverPayrollInfoChangesV2": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverPayrollInfoChangesV2Response": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverPayrollInfoChangesV2Info": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverAbsenceChangesV2": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverAbsenceChangesV2Response": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverAbsenceChangesV2Info": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverRestriction": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverRestrictionResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverRestrictionInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateInserviceTopics": {
+    "dataSource": null,
+    "public": true
+  },
+  "InserviceTopicsInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateInserviceTopicsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateInserviceTopicsInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "OfficeInserviceTopic": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverPictureChanges": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverPictureChangesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverPictureChangesInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCoordinators": {
+    "dataSource": null,
+    "public": true
+  },
+  "CoordinatorSearchFilter": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCoordinatorsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CoordinatorsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CoordinatorInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetOffices": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetOfficesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "Offices": {
+    "dataSource": null,
+    "public": true
+  },
+  "OfficeInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetScheduleBillInfoEditReasons": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetScheduleBillInfoEditReasonsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetFluSeasonYears": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetFluSeasonYearsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "FluSeasonYears": {
+    "dataSource": null,
+    "public": true
+  },
+  "FluSeasonYearInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientNoteReasons": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientNoteReasonsSearchFilter": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientNoteReasonsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientNoteReasonsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientNoteResonsInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverNoteSubjects": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverNoteSubjectsSearchFilter": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverNoteSubjectsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverNoteSubjectsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverNoteSubjectsInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetSourceOfAdmissions": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetSourceOfAdmissionsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "SourceOfAdmissionResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "SourceOfAdmissionInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetBillingServiceCodes": {
+    "dataSource": null,
+    "public": true
+  },
+  "BillingServiceCodeInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetBillingServiceCodesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ServiceCodesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ServiceCodesInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetLanguages": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetLanguagesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "LanguagesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "LanguagesInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetContracts": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetContractsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ContractsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ContractInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPayRateCodes": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPayRateCodesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PayRateCodesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PayRateCodesInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetI9Documents": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetI9DocumentsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "I9DocumentsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "I9DocumentInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverReferralSources": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverReferralSourcesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverReferralSourcesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverReferralSourceInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetStatusReasonsForCaregiver": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetStatusReasonsForCaregiverResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "StatusReasonsForCaregiverResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "StatusReasonsForCaregiverInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetBranches": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetBranchesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "BranchesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "BranchesInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetLocations": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetLocationsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "LocationsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "LocationsInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetNurses": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetNursesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "NursesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "NursesInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetMobilityStatuses": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetMobilityStatusesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "MobilityStatusesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "MobilityStatusesInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetEvacuationZones": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetEvacuationZonesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "EvacuationZonesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "EvacuationZonesInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetEmergencyContactRelationships": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetEmergencyContactRelationshipsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "EmergencyContactRelationshipsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "EmergencyContactRelationshipsInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientTeams": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientTeamsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientTeamsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientTeamInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverTeams": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverTeamsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverTeamsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverTeamInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetEvacuationLocations": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetEvacuationLocationsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "EvacuationLocationsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "EvacuationLocationsInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientDischargeTo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientDischargeToResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDischargeToResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientDischanrgeToInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverNotificationMethods": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverNotificationMethodsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverNotificationMethodsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverNotificationMethodsInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverCityTaxes": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverCityTaxesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CityTaxesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CityTaxInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCollectionARNoteReasons": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCollectionARNoteReasonsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CollectionARNoteReasonsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CollectionARNoteReasonsInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCollectionRepresentatives": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCollectionRepresentativesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CollectionRepresentativesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CollectionRepresentativesInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCollectionFollowUpRepresentatives": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCollectionFollowUpRepresentativesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CollectionFollowUpRepresentativesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CollectionFollowUpRepresentativesInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCollectionStatus": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCollectionStatusResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CollectionStatusResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CollectionStatusInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCollectionClaimStatus": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCollectionClaimStatusResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CollectionClaimStatusResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CollectionClaimStatusInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCollectionReasonForNonPayment": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCollectionReasonForNonPaymentResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CollectionReasonForNonPaymentResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CollectionReasonForNonPaymentInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPayrollTaxTypes": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPayrollTaxTypesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "TaxTypesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "TaxTypesInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPayrollTaxLocations": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPayrollTaxLocationsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "TaxLocationResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "taxLocationInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPayrollStateFillingStatus": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPayrollStateFillingStatusResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "StateFillingStatusResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "StateFillingStatusInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPayrollFederalFillingStatus": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPayrollFederalFillingStatusResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "FederalFillingStatusResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "FederalFillingStatusInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPayrollCostCenters": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPayrollCostCentersResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PayrollCostCentersResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PayrollCostCentersInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverOtherCompliance": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverOtherComplianceResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverOtherCompliance": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverOtherComplianceInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "DisciplineDetails2": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverMedicals": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverMedicalsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverMedicals": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverMedicalInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverMedicalResults": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverMedicalResultsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverMedicalResults": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverMedicalResultsInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverOtherComplianceResults": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCaregiverOtherComplianceResultsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverOtherComplianceResults": {
+    "dataSource": null,
+    "public": true
+  },
+  "CaregiverOtherComplianceResultsInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetElectricEquipments": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetElectricEquipmentsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ElectricEquipments": {
+    "dataSource": null,
+    "public": true
+  },
+  "ElectricEquipmentInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetEthnicity": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetEthnicityResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "Ethnicitys": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddEthnicity": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetContractServiceCode": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetContractServiceCodeResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ServiceCodes": {
+    "dataSource": null,
+    "public": true
+  },
+  "ContractServiceCodeInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetLinkedContractServiceCodes": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetLinkedContractServiceCodesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "LinkedServiceCodes": {
+    "dataSource": null,
+    "public": true
+  },
+  "ServiceCodeInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetDisciplines": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetDisciplinesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetDisciplineInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetDiscipline": {
+    "dataSource": null,
+    "public": true
+  }
+}

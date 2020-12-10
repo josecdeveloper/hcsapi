@@ -1,0 +1,30 @@
+{
+  "name": "PayCodeInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PayCodeID": {
+      "type": "number"
+    },
+    "PayCodeName": {
+      "type": "string"
+    },
+    "Discipline": {
+      "type": "string"
+    },
+    "DisciplineID": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

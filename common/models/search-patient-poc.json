@@ -1,0 +1,24 @@
+{
+  "name": "SearchPatientPOC",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authentication": {
+      "type": "AppParams"
+    },
+    "SearchFilters": {
+      "type": "SearchPatientPOCFilters"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

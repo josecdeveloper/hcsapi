@@ -1,0 +1,27 @@
+{
+  "name": "PayrollBatchesInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "BatchID": {
+      "type": "number"
+    },
+    "BatchNumber": {
+      "type": "string"
+    },
+    "BatchDate": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,42 @@
+{
+  "name": "AvailabilityMaxVisitsInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverID": {
+      "type": "number"
+    },
+    "SundayMaxVisit": {
+      "type": "number"
+    },
+    "MondayMaxVisit": {
+      "type": "number"
+    },
+    "TuesdayMaxVisit": {
+      "type": "number"
+    },
+    "WednesdayMaxVisit": {
+      "type": "number"
+    },
+    "ThursdayMaxVisit": {
+      "type": "number"
+    },
+    "FridayMaxVisit": {
+      "type": "number"
+    },
+    "SaturdayMaxVisit": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

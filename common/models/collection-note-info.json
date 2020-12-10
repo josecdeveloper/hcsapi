@@ -1,0 +1,57 @@
+{
+  "name": "CollectionNoteInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "VisitID": {
+      "type": "number"
+    },
+    "ContractID": {
+      "type": "number"
+    },
+    "PatientID": {
+      "type": "number"
+    },
+    "OfficeID": {
+      "type": "number"
+    },
+    "ARNotesReasonID": {
+      "type": "number"
+    },
+    "CollectionRepID": {
+      "type": "number"
+    },
+    "Notes": {
+      "type": "string"
+    },
+    "CollectionStatus": {
+      "type": "number"
+    },
+    "RefClaimStatusID": {
+      "type": "number"
+    },
+    "RefReasonForNonPaymentID": {
+      "type": "number"
+    },
+    "collectionFollowUpRepID": {
+      "type": "number"
+    },
+    "OtherChargeID": {
+      "type": "number"
+    },
+    "FollowupDate": {
+      "type": "dateTime"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

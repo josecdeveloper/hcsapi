@@ -1,0 +1,23 @@
+{
+  "name": "StatusReasonsForCaregiverResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "StatusReasonsForCaregiver": {
+      "type": [
+        "StatusReasonsForCaregiverInfo"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,39 @@
+{
+  "name": "CallInfoCaregiver",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ID": {
+      "type": "number"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "CaregiverCode": {
+      "type": "string"
+    },
+    "TimeAndAttendancePIN": {
+      "type": "number"
+    },
+    "Phone1": {
+      "type": "string"
+    },
+    "Phone2": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

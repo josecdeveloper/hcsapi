@@ -1,0 +1,27 @@
+{
+  "name": "CollectionFollowUpRepresentativesInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "RepresentativeID": {
+      "type": "number"
+    },
+    "Representative": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

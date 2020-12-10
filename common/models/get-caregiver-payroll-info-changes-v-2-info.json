@@ -1,0 +1,120 @@
+{
+  "name": "GetCaregiverPayrollInfoChangesV2Info",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AgencyID": {
+      "type": "number"
+    },
+    "OfficeID": {
+      "type": "number"
+    },
+    "CaregiverID": {
+      "type": "number"
+    },
+    "ModifiedDate": {
+      "type": "string"
+    },
+    "CoCode": {
+      "type": "string"
+    },
+    "RateType": {
+      "type": "string"
+    },
+    "PensionProfitSharing": {
+      "type": "string"
+    },
+    "ExemptionFromOvertime": {
+      "type": "string"
+    },
+    "DirectDeposit": {
+      "type": "string"
+    },
+    "NycResident": {
+      "type": "string"
+    },
+    "Is1099": {
+      "type": "string"
+    },
+    "UnionReduction": {
+      "type": "string"
+    },
+    "MedicalDeductionCode": {
+      "type": "string"
+    },
+    "PayCycle": {
+      "type": "number"
+    },
+    "CityTax": {
+      "type": "number"
+    },
+    "CostCenter1": {
+      "type": "number"
+    },
+    "CostCenter2": {
+      "type": "number"
+    },
+    "CostCenter3": {
+      "type": "number"
+    },
+    "CostCenter4": {
+      "type": "number"
+    },
+    "CostCenter5": {
+      "type": "number"
+    },
+    "TaxTypes": {
+      "type": "number"
+    },
+    "TaxLocation": {
+      "type": "number"
+    },
+    "StateFillingStatus": {
+      "type": "number"
+    },
+    "FederalFillingStatus": {
+      "type": "number"
+    },
+    "FederalMaritalStatus": {
+      "type": "number"
+    },
+    "FederalExemptions": {
+      "type": "number"
+    },
+    "StateMaritalStatus": {
+      "type": "number"
+    },
+    "StateExemptions": {
+      "type": "number"
+    },
+    "BaseRate": {
+      "type": "number"
+    },
+    "W42020Format": {
+      "type": "string"
+    },
+    "W4DependentCredit": {
+      "type": "number"
+    },
+    "W4OtherIncome": {
+      "type": "number"
+    },
+    "W4Deductions": {
+      "type": "number"
+    },
+    "W4MultipleJobs": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

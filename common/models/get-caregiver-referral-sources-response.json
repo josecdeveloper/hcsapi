@@ -1,0 +1,24 @@
+{
+  "name": "GetCaregiverReferralSourcesResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Result": {
+      "type": "Result"
+    },
+    "CaregiverReferralSources": {
+      "type": "CaregiverReferralSourcesResponse"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

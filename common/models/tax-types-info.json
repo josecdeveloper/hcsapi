@@ -1,0 +1,27 @@
+{
+  "name": "TaxTypesInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "TaxTypeID": {
+      "type": "number"
+    },
+    "TaxTypeName": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

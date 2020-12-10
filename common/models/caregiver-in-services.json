@@ -1,0 +1,23 @@
+{
+  "name": "CaregiverInServices",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverInServicesInfo": {
+      "type": [
+        "CaregiverInServicesInfo"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

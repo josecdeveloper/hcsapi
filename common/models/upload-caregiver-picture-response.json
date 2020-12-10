@@ -1,0 +1,30 @@
+{
+  "name": "UploadCaregiverPictureResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Result": {
+      "type": "Result"
+    },
+    "CaregiverID": {
+      "type": "number"
+    },
+    "GUID": {
+      "type": "string"
+    },
+    "Status": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

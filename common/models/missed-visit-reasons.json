@@ -1,0 +1,23 @@
+{
+  "name": "MissedVisitReasons",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "MissedVisitReasonsInfo": {
+      "type": [
+        "MissedVisitReasonsInfo"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

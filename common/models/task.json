@@ -1,0 +1,36 @@
+{
+  "name": "Task",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "POCTaskCode": {
+      "type": "number"
+    },
+    "AdditionalValue": {
+      "type": "number"
+    },
+    "Status": {
+      "type": "string"
+    },
+    "Category": {
+      "type": "string"
+    },
+    "Duty": {
+      "type": "string"
+    },
+    "Minutes": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

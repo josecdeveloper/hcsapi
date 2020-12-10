@@ -1,0 +1,39 @@
+{
+  "name": "CaregiverMedicalResultsInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "MedicalID": {
+      "type": "number"
+    },
+    "MedicalName": {
+      "type": "string"
+    },
+    "ResultID": {
+      "type": "number"
+    },
+    "OptionValue": {
+      "type": "string"
+    },
+    "OfficeID": {
+      "type": "number"
+    },
+    "OfficeName": {
+      "type": "string"
+    },
+    "ComplianceSetupName": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

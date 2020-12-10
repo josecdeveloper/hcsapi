@@ -1,0 +1,27 @@
+{
+  "name": "PatientNoteReasonsSearchFilter",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "OfficeID": {
+      "type": "number"
+    },
+    "Status": {
+      "type": "string"
+    },
+    "PatientID": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

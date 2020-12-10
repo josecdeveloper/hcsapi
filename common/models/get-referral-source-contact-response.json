@@ -1,0 +1,24 @@
+{
+  "name": "GetReferralSourceContactResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Result": {
+      "type": "Result"
+    },
+    "GetReferralSourceContact": {
+      "type": "GetReferralSourceContact"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

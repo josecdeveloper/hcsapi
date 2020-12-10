@@ -1,0 +1,23 @@
+{
+  "name": "UpdateCaregiverEmergencyContacts",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "EmergencyContact": {
+      "type": [
+        "UpdateCaregiverEmergencyContact"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

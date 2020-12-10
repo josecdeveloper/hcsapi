@@ -1,0 +1,24 @@
+{
+  "name": "UpdateCaregiverTrainingSchool",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authentication": {
+      "type": "AppParams"
+    },
+    "CaregiverTrainingInfo": {
+      "type": "UpdateCaregiverTrainingInfo"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

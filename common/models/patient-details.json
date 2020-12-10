@@ -1,0 +1,153 @@
+{
+  "name": "PatientDetails",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "OfficeID": {
+      "type": "number"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "MiddleName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "BirthDate": {
+      "type": "dateTime"
+    },
+    "Gender": {
+      "type": "string"
+    },
+    "CoordinatorID1": {
+      "type": "number"
+    },
+    "CoordinatorID2": {
+      "type": "number"
+    },
+    "CoordinatorID3": {
+      "type": "number"
+    },
+    "PriorityCode": {
+      "type": "number"
+    },
+    "ServiceRequestStartDate": {
+      "type": "dateTime"
+    },
+    "NurseID": {
+      "type": "number"
+    },
+    "AdmissionID": {
+      "type": "string"
+    },
+    "MRNumber": {
+      "type": "number"
+    },
+    "MedicaidNumber": {
+      "type": "string"
+    },
+    "MedicareNumber": {
+      "type": "string"
+    },
+    "AcceptedServices": {
+      "type": "AcceptedService"
+    },
+    "SSN": {
+      "type": "string"
+    },
+    "AllowDuplicate": {
+      "type": "number"
+    },
+    "Alerts": {
+      "type": "string"
+    },
+    "SourceOfAdmission": {
+      "type": "number"
+    },
+    "TeamID": {
+      "type": "number"
+    },
+    "BranchID": {
+      "type": "number"
+    },
+    "LocationID": {
+      "type": "number"
+    },
+    "Addresses": {
+      "type": "AddressInfo"
+    },
+    "AlternateBilling": {
+      "type": "PatientAlternateBilling"
+    },
+    "EmergencyContacts": {
+      "type": "PatientEmergencyContacts"
+    },
+    "EmergencyPreparedness": {
+      "type": "PatientEmergencyPreparedness"
+    },
+    "EVVRequired": {
+      "type": "string"
+    },
+    "FOBRequired": {
+      "type": "string"
+    },
+    "FOBDeviceID": {
+      "type": "string"
+    },
+    "BeaconRequired": {
+      "type": "string"
+    },
+    "BeaconDeviceID": {
+      "type": "string"
+    },
+    "FobSealId": {
+      "type": "string"
+    },
+    "WageParity": {
+      "type": "string"
+    },
+    "WageParityFromDate1": {
+      "type": "dateTime"
+    },
+    "WageParityToDate1": {
+      "type": "dateTime"
+    },
+    "WageParityFromDate2": {
+      "type": "dateTime"
+    },
+    "WageParityToDate2": {
+      "type": "dateTime"
+    },
+    "HomePhone": {
+      "type": "string"
+    },
+    "Phone2": {
+      "type": "string"
+    },
+    "Phone2Description": {
+      "type": "string"
+    },
+    "Phone3": {
+      "type": "string"
+    },
+    "Phone3Description": {
+      "type": "string"
+    },
+    "Direction": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

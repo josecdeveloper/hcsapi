@@ -1,0 +1,36 @@
+{
+  "name": "CreateCaregiverMedicalInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverID": {
+      "type": "number"
+    },
+    "MedicalID": {
+      "type": "number"
+    },
+    "DueDate": {
+      "type": "dateTime"
+    },
+    "DateCompleted": {
+      "type": "dateTime"
+    },
+    "Notes": {
+      "type": "string"
+    },
+    "ResultID": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

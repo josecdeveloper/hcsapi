@@ -1,0 +1,57 @@
+{
+  "name": "CreatePOCTask",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "POCTaskID": {
+      "type": "number"
+    },
+    "Minutes": {
+      "type": "number"
+    },
+    "AsRequested": {
+      "type": "boolean"
+    },
+    "TimesPerWeekMin": {
+      "type": "number"
+    },
+    "TimesPerWeekMax": {
+      "type": "number"
+    },
+    "Instruction": {
+      "type": "string"
+    },
+    "Sat": {
+      "type": "boolean"
+    },
+    "Sun": {
+      "type": "boolean"
+    },
+    "Mon": {
+      "type": "boolean"
+    },
+    "Tue": {
+      "type": "boolean"
+    },
+    "Wed": {
+      "type": "boolean"
+    },
+    "Thu": {
+      "type": "boolean"
+    },
+    "Fri": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

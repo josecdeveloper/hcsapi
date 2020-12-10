@@ -1,0 +1,30 @@
+{
+  "name": "GetCaregiverNotes",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authentication": {
+      "type": "AppParams"
+    },
+    "CaregiverID": {
+      "type": "number"
+    },
+    "ModifiedAfter": {
+      "type": "dateTime"
+    },
+    "LastCaregiverNoteID": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

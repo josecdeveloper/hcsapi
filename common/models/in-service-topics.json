@@ -1,0 +1,23 @@
+{
+  "name": "InServiceTopics",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "InServiceTopicsInfo": {
+      "type": [
+        "InServiceTopicsInfo"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

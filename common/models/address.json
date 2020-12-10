@@ -1,0 +1,45 @@
+{
+  "name": "Address",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Street1": {
+      "type": "string"
+    },
+    "Street2": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "Zip5": {
+      "type": "string"
+    },
+    "Zip4": {
+      "type": "string"
+    },
+    "HomePhone": {
+      "type": "string"
+    },
+    "Phone2": {
+      "type": "string"
+    },
+    "Phone3": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,23 @@
+{
+  "name": "CaregiverMedicalResults",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverMedicalResult": {
+      "type": [
+        "CaregiverMedicalResultsInfo"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

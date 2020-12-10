@@ -1,0 +1,33 @@
+{
+  "name": "AddPatientDocumentInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PatientID": {
+      "type": "number"
+    },
+    "PatientDocumentTypeID": {
+      "type": "number"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "FileName": {
+      "type": "string"
+    },
+    "StreamData": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

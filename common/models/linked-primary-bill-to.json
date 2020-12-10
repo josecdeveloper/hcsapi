@@ -1,0 +1,30 @@
+{
+  "name": "LinkedPrimaryBillTo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Payer": {
+      "type": "LinkedContract"
+    },
+    "ServiceCode": {
+      "type": "LinkedServiceCode"
+    },
+    "Hours": {
+      "type": "number"
+    },
+    "Minutes": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

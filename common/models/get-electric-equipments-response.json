@@ -1,0 +1,24 @@
+{
+  "name": "GetElectricEquipmentsResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Result": {
+      "type": "Result"
+    },
+    "ElectricEquipments": {
+      "type": "ElectricEquipments"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

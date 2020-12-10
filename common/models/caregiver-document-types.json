@@ -1,0 +1,23 @@
+{
+  "name": "CaregiverDocumentTypes",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "DocumentType": {
+      "type": [
+        "CaregiverDocumentType"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,23 @@
+{
+  "name": "CaregiverDemographicEmergencyContacts",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "EmergencyContact": {
+      "type": [
+        "CaregiverDemographicEmergencyContact"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,30 @@
+{
+  "name": "GetDiscipline",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "DisciplineID": {
+      "type": "number"
+    },
+    "DisciplineName": {
+      "type": "string"
+    },
+    "DisciplineTypeID": {
+      "type": "number"
+    },
+    "DisciplineType": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

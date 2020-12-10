@@ -1,0 +1,36 @@
+{
+  "name": "AddPatientContractInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PatientID": {
+      "type": "number"
+    },
+    "ContractID": {
+      "type": "number"
+    },
+    "StartDate": {
+      "type": "dateTime"
+    },
+    "AltPateintID": {
+      "type": "string"
+    },
+    "ServiceCodeID": {
+      "type": "number"
+    },
+    "IsPrimaryContract": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

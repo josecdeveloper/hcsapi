@@ -1,0 +1,69 @@
+{
+  "name": "AddCaregiverInServiceInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverID": {
+      "type": "number"
+    },
+    "InServiceDate": {
+      "type": "dateTime"
+    },
+    "IsScheduled": {
+      "type": "string"
+    },
+    "FromTime": {
+      "type": "string"
+    },
+    "EndTime": {
+      "type": "string"
+    },
+    "NoShow": {
+      "type": "string"
+    },
+    "Reason": {
+      "type": "number"
+    },
+    "Topics": {
+      "type": "Topics"
+    },
+    "InserviceCountCompliance": {
+      "type": "string"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "Language": {
+      "type": "number"
+    },
+    "Instructor": {
+      "type": "number"
+    },
+    "Discipline": {
+      "type": "string"
+    },
+    "PayCode": {
+      "type": "number"
+    },
+    "Discipline2": {
+      "type": "string"
+    },
+    "PayCode2": {
+      "type": "number"
+    },
+    "Description": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

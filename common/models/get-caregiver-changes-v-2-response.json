@@ -1,0 +1,26 @@
+{
+  "name": "GetCaregiverChangesV2Response",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Result": {
+      "type": "Result"
+    },
+    "GetCaregiverChangesV2Info": {
+      "type": [
+        "GetCaregiverChangesV2Info"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

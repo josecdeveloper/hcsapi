@@ -1,0 +1,27 @@
+{
+  "name": "SendNotifications",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "MobileAppOrSMS": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "VoiceMessage": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

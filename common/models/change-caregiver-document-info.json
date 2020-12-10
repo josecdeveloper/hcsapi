@@ -1,0 +1,30 @@
+{
+  "name": "ChangeCaregiverDocumentInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverID": {
+      "type": "number"
+    },
+    "CaregiverDocID": {
+      "type": "number"
+    },
+    "FileName": {
+      "type": "string"
+    },
+    "StreamData": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

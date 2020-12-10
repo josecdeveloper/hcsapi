@@ -1,0 +1,30 @@
+{
+  "name": "MobilityStatusesInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "MobilityStatusID": {
+      "type": "number"
+    },
+    "MobilityStatusName": {
+      "type": "string"
+    },
+    "Offices": {
+      "type": "OfficesData"
+    },
+    "Active": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

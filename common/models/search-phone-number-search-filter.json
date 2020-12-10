@@ -1,0 +1,30 @@
+{
+  "name": "SearchPhoneNumberSearchFilter",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "OfficeID": {
+      "type": "number"
+    },
+    "PhoneNumber": {
+      "type": "number"
+    },
+    "SearchPatients": {
+      "type": "string"
+    },
+    "SearchCaregivers": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

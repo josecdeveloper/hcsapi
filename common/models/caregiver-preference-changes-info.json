@@ -1,0 +1,45 @@
+{
+  "name": "CaregiverPreferenceChangesInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AgencyID": {
+      "type": "number"
+    },
+    "OfficeID": {
+      "type": "number"
+    },
+    "CaregiverID": {
+      "type": "number"
+    },
+    "ModifiedDate": {
+      "type": "string"
+    },
+    "ChangeSequenceNumber": {
+      "type": "number"
+    },
+    "Action": {
+      "type": "string"
+    },
+    "PreferenceID": {
+      "type": "number"
+    },
+    "PreferenceName": {
+      "type": "string"
+    },
+    "UsedForScheduling": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

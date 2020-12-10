@@ -1,0 +1,23 @@
+{
+  "name": "CaregiverEvaluations",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverEvaluationsInfo": {
+      "type": [
+        "CaregiverEvaluationsInfo"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

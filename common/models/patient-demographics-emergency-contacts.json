@@ -1,0 +1,23 @@
+{
+  "name": "PatientDemographicsEmergencyContacts",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "EmergencyContact": {
+      "type": [
+        "PatientDemographicsEmergencyContact"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

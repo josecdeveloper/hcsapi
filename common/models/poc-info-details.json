@@ -1,0 +1,42 @@
+{
+  "name": "POCInfoDetails",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Patient": {
+      "type": "POCPatient"
+    },
+    "ID": {
+      "type": "number"
+    },
+    "StartDate": {
+      "type": "string"
+    },
+    "StopDate": {
+      "type": "string"
+    },
+    "POCNumber": {
+      "type": "string"
+    },
+    "Notes": {
+      "type": "string"
+    },
+    "CreatedDate": {
+      "type": "string"
+    },
+    "Tasks": {
+      "type": "POCTasks"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

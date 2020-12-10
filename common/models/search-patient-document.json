@@ -1,0 +1,33 @@
+{
+  "name": "SearchPatientDocument",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PatientID": {
+      "type": "number"
+    },
+    "PatientDocumentTypeID": {
+      "type": "number"
+    },
+    "PatientDocumentID": {
+      "type": "number"
+    },
+    "FromDate": {
+      "type": "dateTime"
+    },
+    "ToDate": {
+      "type": "dateTime"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

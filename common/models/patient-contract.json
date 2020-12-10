@@ -1,0 +1,45 @@
+{
+  "name": "PatientContract",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PlacementID": {
+      "type": "number"
+    },
+    "Contract": {
+      "type": "ContractDetails"
+    },
+    "IsPrimaryContract": {
+      "type": "string"
+    },
+    "AltPatientID": {
+      "type": "string"
+    },
+    "ServiceStartDate": {
+      "type": "string"
+    },
+    "SourceOfAdmission": {
+      "type": "SourceOfAdmission"
+    },
+    "ServiceCode": {
+      "type": "ServiceCodeDetails"
+    },
+    "DischargeDate": {
+      "type": "string"
+    },
+    "DischargeTo": {
+      "type": "DischargeTo"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

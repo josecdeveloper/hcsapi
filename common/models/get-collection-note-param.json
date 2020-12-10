@@ -1,0 +1,30 @@
+{
+  "name": "GetCollectionNoteParam",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CollectionNoteDetailID": {
+      "type": "number"
+    },
+    "VisitID": {
+      "type": "number"
+    },
+    "ContractID": {
+      "type": "number"
+    },
+    "PatientID": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

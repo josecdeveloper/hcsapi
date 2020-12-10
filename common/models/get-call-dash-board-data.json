@@ -1,0 +1,45 @@
+{
+  "name": "GetCallDashBoardData",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "OfficeID": {
+      "type": "number"
+    },
+    "StartDate": {
+      "type": "dateTime"
+    },
+    "EndDate": {
+      "type": "dateTime"
+    },
+    "PatientID": {
+      "type": "number"
+    },
+    "AdmissionID": {
+      "type": "string"
+    },
+    "CaregiverID": {
+      "type": "number"
+    },
+    "CaregiverCode": {
+      "type": "string"
+    },
+    "TimeAndAttendancePIN": {
+      "type": "number"
+    },
+    "LastCallDashboardID": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

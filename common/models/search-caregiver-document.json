@@ -1,0 +1,33 @@
+{
+  "name": "SearchCaregiverDocument",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverID": {
+      "type": "number"
+    },
+    "CaregiverDocumentTypeID": {
+      "type": "number"
+    },
+    "CaregiverDocumentID": {
+      "type": "number"
+    },
+    "FromDate": {
+      "type": "dateTime"
+    },
+    "ToDate": {
+      "type": "dateTime"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

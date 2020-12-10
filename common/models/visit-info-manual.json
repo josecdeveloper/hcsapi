@@ -1,0 +1,54 @@
+{
+  "name": "VisitInfoManual",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "VisitID": {
+      "type": "number"
+    },
+    "VisitStartTime": {
+      "type": "dateTime"
+    },
+    "VisitEndTime": {
+      "type": "dateTime"
+    },
+    "ReasonCode": {
+      "type": "number"
+    },
+    "ActionCode": {
+      "type": "number"
+    },
+    "Duties": {
+      "type": "DutyManualList"
+    },
+    "TimesheetRequired": {
+      "type": "string"
+    },
+    "TimesheetApproved": {
+      "type": "string"
+    },
+    "Notes": {
+      "type": "string"
+    },
+    "IsMissedVisit": {
+      "type": "string"
+    },
+    "MissedVisitReason": {
+      "type": "string"
+    },
+    "MissedVisitAction": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

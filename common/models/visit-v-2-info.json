@@ -1,0 +1,84 @@
+{
+  "name": "VisitV2Info",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverID": {
+      "type": "number"
+    },
+    "VisitID": {
+      "type": "number"
+    },
+    "TimeAndAttPIN": {
+      "type": "number"
+    },
+    "CaregiverCode": {
+      "type": "string"
+    },
+    "PatientID": {
+      "type": "number"
+    },
+    "CallerID": {
+      "type": "number"
+    },
+    "AdmissionID": {
+      "type": "string"
+    },
+    "VisitStartTime": {
+      "type": "dateTime"
+    },
+    "StartLatitude": {
+      "type": "number"
+    },
+    "StartLongitude": {
+      "type": "number"
+    },
+    "VisitEndTime": {
+      "type": "dateTime"
+    },
+    "EndLatitude": {
+      "type": "number"
+    },
+    "EndLongitude": {
+      "type": "number"
+    },
+    "ReasonCode": {
+      "type": "number"
+    },
+    "ActionCode": {
+      "type": "number"
+    },
+    "Duties": {
+      "type": "ArrayOfDuty"
+    },
+    "TimesheetRequired": {
+      "type": "string"
+    },
+    "TimesheetApproved": {
+      "type": "string"
+    },
+    "Notes": {
+      "type": "string"
+    },
+    "MealInterruptMinutes": {
+      "type": "number"
+    },
+    "SleepInterruptMinutes": {
+      "type": "number"
+    },
+    "CallDuration": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

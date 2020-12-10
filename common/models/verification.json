@@ -1,0 +1,33 @@
+{
+  "name": "Verification",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "VerifiedBy": {
+      "type": "string"
+    },
+    "Notes": {
+      "type": "string"
+    },
+    "VerifiedDate": {
+      "type": "dateTime"
+    },
+    "VerifiedTime": {
+      "type": "string"
+    },
+    "SupervisorName": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

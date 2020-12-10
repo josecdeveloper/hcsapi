@@ -1,0 +1,33 @@
+{
+  "name": "CaregiverMedicalProfileCustomResultInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AgencyID": {
+      "type": "number"
+    },
+    "CaregiverID": {
+      "type": "number"
+    },
+    "CaregiverCode": {
+      "type": "string"
+    },
+    "Status": {
+      "type": "string"
+    },
+    "Comments": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

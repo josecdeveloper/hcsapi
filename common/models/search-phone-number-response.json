@@ -1,0 +1,27 @@
+{
+  "name": "SearchPhoneNumberResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Result": {
+      "type": "Result"
+    },
+    "Patients": {
+      "type": "PatientPhoneNumberResponse"
+    },
+    "Caregivers": {
+      "type": "CaregiverPhoneNumberResponse"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,36 @@
+{
+  "name": "UpdateScheduleBillTo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ContractID": {
+      "type": "number"
+    },
+    "ContractName": {
+      "type": "string"
+    },
+    "ServiceCodeID": {
+      "type": "number"
+    },
+    "ServiceCodeName": {
+      "type": "string"
+    },
+    "Hours": {
+      "type": "number"
+    },
+    "Minutes": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,36 @@
+{
+  "name": "EvaluationCodesInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "EvaluationCodeID": {
+      "type": "number"
+    },
+    "EvaluationCode": {
+      "type": "string"
+    },
+    "Status": {
+      "type": "string"
+    },
+    "Expirable": {
+      "type": "string"
+    },
+    "Required": {
+      "type": "string"
+    },
+    "MonthsToExpire": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

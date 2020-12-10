@@ -1,0 +1,72 @@
+{
+  "name": "PatientReferralInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PatientID": {
+      "type": "number"
+    },
+    "ReferralMasterId": {
+      "type": "number"
+    },
+    "ReferralCreatedDate": {
+      "type": "string"
+    },
+    "ReferralName": {
+      "type": "string"
+    },
+    "ReferralReceivedDate": {
+      "type": "string"
+    },
+    "ReferralStatusId": {
+      "type": "number"
+    },
+    "ReferralStatus": {
+      "type": "string"
+    },
+    "ReferralCommissionStatusID": {
+      "type": "number"
+    },
+    "ReferralCommissionStatus": {
+      "type": "string"
+    },
+    "ReferralSourceId": {
+      "type": "number"
+    },
+    "ReferralSourceName": {
+      "type": "string"
+    },
+    "ReferralSourceType": {
+      "type": "string"
+    },
+    "ReferralContactId": {
+      "type": "number"
+    },
+    "ReferralContactName": {
+      "type": "string"
+    },
+    "ReferralIntakePersonId": {
+      "type": "number"
+    },
+    "ReferralIntakePersonName": {
+      "type": "string"
+    },
+    "ReferralAccountManagerId": {
+      "type": "number"
+    },
+    "ReferralAccountManagerName": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,24 @@
+{
+  "name": "CaregiverNotificationMethodsInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverNotificationMethodID": {
+      "type": "number"
+    },
+    "CaregiverNotificationMethodName": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

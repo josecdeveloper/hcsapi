@@ -1,0 +1,30 @@
+{
+  "name": "PatientDemographicsEmergencyPreparedness",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "EvacuationZoneID": {
+      "type": "number"
+    },
+    "EvacuationLocationID": {
+      "type": "number"
+    },
+    "MobilityStatusID": {
+      "type": "number"
+    },
+    "ElectricEquipmentDependency": {
+      "type": "PatientDemographicsElectricEquipmentDependency"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

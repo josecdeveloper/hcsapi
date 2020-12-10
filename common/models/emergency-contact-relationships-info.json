@@ -1,0 +1,24 @@
+{
+  "name": "EmergencyContactRelationshipsInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "EmergencyContactRelationshipID": {
+      "type": "number"
+    },
+    "EmergencyContactRelationshipName": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,66 @@
+{
+  "name": "UpdateScheduleInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "VisitID": {
+      "type": "number"
+    },
+    "ScheduleStartTime": {
+      "type": "string"
+    },
+    "ScheduleEndTime": {
+      "type": "string"
+    },
+    "IsScheduleTemporary": {
+      "type": "string"
+    },
+    "CaregiverID": {
+      "type": "number"
+    },
+    "CaregiverCode": {
+      "type": "string"
+    },
+    "CaregiverFirstName": {
+      "type": "string"
+    },
+    "CaregiverLastName": {
+      "type": "string"
+    },
+    "CaregiverDateOfBirth": {
+      "type": "dateTime"
+    },
+    "PayCodeID": {
+      "type": "number"
+    },
+    "PayCodeName": {
+      "type": "string"
+    },
+    "IsCaregiverTemporary": {
+      "type": "string"
+    },
+    "PrimaryBillTo": {
+      "type": "UpdateScheduleBillTo"
+    },
+    "SecondaryBillTo": {
+      "type": "UpdateScheduleBillTo"
+    },
+    "ScheduleBillInfoEditReasonsID": {
+      "type": "number"
+    },
+    "Note": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

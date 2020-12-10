@@ -1,0 +1,294 @@
+{
+  "name": "CaregiverChangesInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AgencyID": {
+      "type": "number"
+    },
+    "OfficeID": {
+      "type": "number"
+    },
+    "CaregiverID": {
+      "type": "number"
+    },
+    "ModifiedDate": {
+      "type": "string"
+    },
+    "ChangeSequenceNumber": {
+      "type": "number"
+    },
+    "Action": {
+      "type": "string"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "MiddleName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Initials": {
+      "type": "string"
+    },
+    "Gender": {
+      "type": "string"
+    },
+    "DateofBirth": {
+      "type": "string"
+    },
+    "CaregiverCode": {
+      "type": "string"
+    },
+    "AlternateCaregiverCode": {
+      "type": "string"
+    },
+    "TimeAndAttendancePIN": {
+      "type": "string"
+    },
+    "SSN": {
+      "type": "string"
+    },
+    "Ethnicity": {
+      "type": "string"
+    },
+    "RehireDate": {
+      "type": "string"
+    },
+    "CountryOfBirth": {
+      "type": "string"
+    },
+    "MaritalStatus": {
+      "type": "string"
+    },
+    "Dependents": {
+      "type": "string"
+    },
+    "EmployeeType": {
+      "type": "string"
+    },
+    "Status": {
+      "type": "string"
+    },
+    "InActiveReason": {
+      "type": "number"
+    },
+    "InActiveNote": {
+      "type": "string"
+    },
+    "TerminatedDate": {
+      "type": "string"
+    },
+    "EmploymentTypes": {
+      "type": "Discipline"
+    },
+    "Sent105": {
+      "type": "string"
+    },
+    "EmployeeID": {
+      "type": "string"
+    },
+    "ApplicationDate": {
+      "type": "string"
+    },
+    "TeamID": {
+      "type": "number"
+    },
+    "LocationID": {
+      "type": "number"
+    },
+    "BranchID": {
+      "type": "number"
+    },
+    "Payer": {
+      "type": "string"
+    },
+    "Registrynumber": {
+      "type": "string"
+    },
+    "RegistryDate": {
+      "type": "string"
+    },
+    "ReferralSourceID": {
+      "type": "number"
+    },
+    "ReferralPerson": {
+      "type": "string"
+    },
+    "NYCRegistryCheckedOn": {
+      "type": "string"
+    },
+    "NYCRegistryCheckedDate": {
+      "type": "string"
+    },
+    "ExclusionListCheckedOn": {
+      "type": "string"
+    },
+    "ExclusionListStatus": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "Address"
+    },
+    "EmergencyContact1": {
+      "type": "CaregiverEmergencyContact"
+    },
+    "EmergencyContact2": {
+      "type": "CaregiverEmergencyContact"
+    },
+    "NotificationPreferences": {
+      "type": "NotificationPreferences"
+    },
+    "HireDate": {
+      "type": "string"
+    },
+    "I9DocumentID": {
+      "type": "number"
+    },
+    "I9Document2": {
+      "type": "string"
+    },
+    "I9ExpirationDate": {
+      "type": "string"
+    },
+    "I9Vefified": {
+      "type": "string"
+    },
+    "I9Comments": {
+      "type": "string"
+    },
+    "Reference1": {
+      "type": "string"
+    },
+    "Reference2": {
+      "type": "string"
+    },
+    "Degree": {
+      "type": "string"
+    },
+    "CriminalBackgroundDate1": {
+      "type": "string"
+    },
+    "CriminalBackgroundResult1": {
+      "type": "string"
+    },
+    "CriminalBackgroundReceivedDate1": {
+      "type": "string"
+    },
+    "CriminalBackgroundDate2": {
+      "type": "string"
+    },
+    "CriminalBackgroundResult2": {
+      "type": "string"
+    },
+    "CriminalBackgroundReceivedDate2": {
+      "type": "string"
+    },
+    "CriminalBackgroundDate3": {
+      "type": "string"
+    },
+    "CriminalBackgroundResult3": {
+      "type": "string"
+    },
+    "CriminalBackgroundReceivedDate3": {
+      "type": "string"
+    },
+    "LastEmploymentAgency": {
+      "type": "string"
+    },
+    "LastEmploymentStartDate": {
+      "type": "string"
+    },
+    "LastEmploymentEndDate": {
+      "type": "string"
+    },
+    "ProfessionalLicensenumber": {
+      "type": "string"
+    },
+    "Licensedateverified": {
+      "type": "string"
+    },
+    "ProfessionalRegistrationExpirationDate": {
+      "type": "string"
+    },
+    "AutomobileInsuranceExpirationDate": {
+      "type": "string"
+    },
+    "NoCar": {
+      "type": "string"
+    },
+    "MalpracticeInsuranceExpirationDate": {
+      "type": "string"
+    },
+    "CPRVerifiedon": {
+      "type": "string"
+    },
+    "PICCCertificationDateVerified": {
+      "type": "string"
+    },
+    "NPInumber": {
+      "type": "string"
+    },
+    "Language1": {
+      "type": "number"
+    },
+    "Language2": {
+      "type": "number"
+    },
+    "Language3": {
+      "type": "number"
+    },
+    "Language4": {
+      "type": "number"
+    },
+    "Other": {
+      "type": "string"
+    },
+    "CoCode": {
+      "type": "string"
+    },
+    "FedExemption": {
+      "type": "string"
+    },
+    "RateType": {
+      "type": "string"
+    },
+    "PensionProfitSharing": {
+      "type": "string"
+    },
+    "ExemptionFromOvertime": {
+      "type": "string"
+    },
+    "DirectDeposit": {
+      "type": "string"
+    },
+    "NycResident": {
+      "type": "string"
+    },
+    "Employee1099": {
+      "type": "string"
+    },
+    "UnionReduction": {
+      "type": "string"
+    },
+    "MedicalDeductionCode": {
+      "type": "string"
+    },
+    "PayCycle": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

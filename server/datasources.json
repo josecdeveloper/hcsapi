@@ -1,0 +1,9 @@
+{
+  "hcs_hhax_soap": {
+    "url": "https://app.hhaexchange.com/integration/ENT/V1.8/ws.asmx",
+    "name": "hcs_hhax_soap",
+    "wsdl": "https://app.hhaexchange.com/integration/ENT/V1.8/ws.asmx?WSDL",
+    "remotingEnabled": true,
+    "connector": "soap"
+  }
+}

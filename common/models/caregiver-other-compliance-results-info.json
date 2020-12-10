@@ -1,0 +1,39 @@
+{
+  "name": "CaregiverOtherComplianceResultsInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "OtherComplianceID": {
+      "type": "number"
+    },
+    "ComplianceName": {
+      "type": "string"
+    },
+    "OtherComplianceResultID": {
+      "type": "number"
+    },
+    "OptionValue": {
+      "type": "string"
+    },
+    "OfficeID": {
+      "type": "number"
+    },
+    "OfficeName": {
+      "type": "string"
+    },
+    "ComplianceSetupName": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

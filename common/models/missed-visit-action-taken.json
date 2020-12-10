@@ -1,0 +1,23 @@
+{
+  "name": "MissedVisitActionTaken",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "MissedVisitActionTakenInfo": {
+      "type": [
+        "MissedVisitActionTakenInfo"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

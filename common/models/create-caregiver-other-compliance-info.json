@@ -1,0 +1,39 @@
+{
+  "name": "CreateCaregiverOtherComplianceInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverID": {
+      "type": "number"
+    },
+    "OtherComplianceID": {
+      "type": "number"
+    },
+    "DueDate": {
+      "type": "dateTime"
+    },
+    "DateCompleted": {
+      "type": "dateTime"
+    },
+    "Notes": {
+      "type": "string"
+    },
+    "Score": {
+      "type": "number"
+    },
+    "OtherComplianceResultID": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

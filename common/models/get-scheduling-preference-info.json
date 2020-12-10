@@ -1,0 +1,42 @@
+{
+  "name": "GetSchedulingPreferenceInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PreferenceID": {
+      "type": "string"
+    },
+    "OfficeID": {
+      "type": "string"
+    },
+    "Preference": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "PreferenceType": {
+      "type": "string"
+    },
+    "AppliesToPatient": {
+      "type": "string"
+    },
+    "AppliesToCaregiver": {
+      "type": "string"
+    },
+    "Status": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

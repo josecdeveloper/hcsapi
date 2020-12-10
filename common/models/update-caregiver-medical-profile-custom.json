@@ -1,0 +1,24 @@
+{
+  "name": "UpdateCaregiverMedicalProfileCustom",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authentication": {
+      "type": "AppParams"
+    },
+    "CaregiverCustomMedicalProfiles": {
+      "type": "CaregiverCustomMedicalProfiles"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

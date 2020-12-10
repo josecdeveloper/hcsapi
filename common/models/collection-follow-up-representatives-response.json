@@ -1,0 +1,23 @@
+{
+  "name": "CollectionFollowUpRepresentativesResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CollectionFollowUpRepresentative": {
+      "type": [
+        "CollectionFollowUpRepresentativesInfo"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

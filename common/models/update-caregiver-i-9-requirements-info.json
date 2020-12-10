@@ -1,0 +1,42 @@
+{
+  "name": "UpdateCaregiverI9RequirementsInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverID": {
+      "type": "number"
+    },
+    "HireDate": {
+      "type": "dateTime"
+    },
+    "I9ABDocumentID": {
+      "type": "number"
+    },
+    "I9CDocumentID": {
+      "type": "number"
+    },
+    "I9DocumentExpiration": {
+      "type": "dateTime"
+    },
+    "I9Notes": {
+      "type": "string"
+    },
+    "I9Verified": {
+      "type": "string"
+    },
+    "I9EVerifyNumber": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

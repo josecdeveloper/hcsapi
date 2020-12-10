@@ -1,0 +1,26 @@
+{
+  "name": "GetCaregiverPictureChangesResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Result": {
+      "type": "Result"
+    },
+    "GetCaregiverPictureChangesInfo": {
+      "type": [
+        "GetCaregiverPictureChangesInfo"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

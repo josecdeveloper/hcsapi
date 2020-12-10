@@ -1,0 +1,48 @@
+{
+  "name": "CreateVisitInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CallUniqueID": {
+      "type": "number"
+    },
+    "CaregiverFirstName": {
+      "type": "string"
+    },
+    "CaregiverLastName": {
+      "type": "string"
+    },
+    "CaregiverDateOfBirth": {
+      "type": "dateTime"
+    },
+    "PatientFirstName": {
+      "type": "string"
+    },
+    "PatientLastName": {
+      "type": "string"
+    },
+    "PatientDateOfBirth": {
+      "type": "dateTime"
+    },
+    "CallType": {
+      "type": "string"
+    },
+    "CallTime": {
+      "type": "dateTime"
+    },
+    "Duties": {
+      "type": "ArrayOfDuty"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,60 @@
+{
+  "name": "CaregiverInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverID": {
+      "type": "number"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "MiddleName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "CaregiverCode": {
+      "type": "string"
+    },
+    "EmploymentTypes": {
+      "type": "DisciplineInfo"
+    },
+    "Team": {
+      "type": "ItemInfo"
+    },
+    "Location": {
+      "type": "ItemInfo"
+    },
+    "Branch": {
+      "type": "ItemInfo"
+    },
+    "PrimaryLanguage": {
+      "type": "ItemInfo"
+    },
+    "City": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "Zip5": {
+      "type": "number"
+    },
+    "Zip4": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

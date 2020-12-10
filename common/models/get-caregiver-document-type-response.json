@@ -1,0 +1,24 @@
+{
+  "name": "GetCaregiverDocumentTypeResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Result": {
+      "type": "Result"
+    },
+    "CaregiverDocumentTypes": {
+      "type": "CaregiverDocumentTypes"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

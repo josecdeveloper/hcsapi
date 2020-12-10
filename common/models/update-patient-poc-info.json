@@ -1,0 +1,39 @@
+{
+  "name": "UpdatePatientPOCInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PatientID": {
+      "type": "number"
+    },
+    "POCHeaderID": {
+      "type": "number"
+    },
+    "StartDate": {
+      "type": "dateTime"
+    },
+    "StopDate": {
+      "type": "dateTime"
+    },
+    "Shift": {
+      "type": "string"
+    },
+    "POCTasks": {
+      "type": "UpdatePOCTasks"
+    },
+    "POCNote": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

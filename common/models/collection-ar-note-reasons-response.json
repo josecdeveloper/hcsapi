@@ -1,0 +1,23 @@
+{
+  "name": "CollectionARNoteReasonsResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CollectionARNoteReason": {
+      "type": [
+        "CollectionARNoteReasonsInfo"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

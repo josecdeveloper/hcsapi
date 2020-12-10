@@ -1,0 +1,33 @@
+{
+  "name": "SearchBilledVisits",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authentication": {
+      "type": "AppParams"
+    },
+    "StartDate": {
+      "type": "dateTime"
+    },
+    "EndDate": {
+      "type": "dateTime"
+    },
+    "OfficeID": {
+      "type": "number"
+    },
+    "PatientID": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

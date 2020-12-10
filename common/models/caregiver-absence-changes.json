@@ -1,0 +1,23 @@
+{
+  "name": "CaregiverAbsenceChanges",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AbsenceInfo": {
+      "type": [
+        "CaregiverAbsenceChangesInfo"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

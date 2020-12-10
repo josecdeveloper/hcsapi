@@ -1,0 +1,36 @@
+{
+  "name": "CoordinatorInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CoordinatorID": {
+      "type": "number"
+    },
+    "Offices": {
+      "type": "OfficesData"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

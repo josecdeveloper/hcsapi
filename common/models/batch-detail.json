@@ -1,0 +1,117 @@
+{
+  "name": "BatchDetail",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "BatchID": {
+      "type": "number"
+    },
+    "BatchNumber": {
+      "type": "string"
+    },
+    "BatchDate": {
+      "type": "string"
+    },
+    "CaregiverID": {
+      "type": "number"
+    },
+    "CaregiverCode": {
+      "type": "string"
+    },
+    "CaregiverFirstName": {
+      "type": "string"
+    },
+    "CaregiverLastName": {
+      "type": "string"
+    },
+    "AdmissionID": {
+      "type": "string"
+    },
+    "PatientID": {
+      "type": "number"
+    },
+    "VisitID": {
+      "type": "number"
+    },
+    "VisitDate": {
+      "type": "string"
+    },
+    "VisitStartTime": {
+      "type": "string"
+    },
+    "VisitEndTime": {
+      "type": "string"
+    },
+    "RegularHours": {
+      "type": "number"
+    },
+    "RegularPayRate": {
+      "type": "string"
+    },
+    "RegularPayCode": {
+      "type": "string"
+    },
+    "RegularAmount": {
+      "type": "string"
+    },
+    "OverTimeHours": {
+      "type": "number"
+    },
+    "OverTimeAmount": {
+      "type": "string"
+    },
+    "OverTimePayrate": {
+      "type": "string"
+    },
+    "OverTimePayCode": {
+      "type": "string"
+    },
+    "HolidayHours": {
+      "type": "number"
+    },
+    "HolidayPayRate": {
+      "type": "string"
+    },
+    "HolidayAmount": {
+      "type": "string"
+    },
+    "HolidayPayCode": {
+      "type": "string"
+    },
+    "PayType": {
+      "type": "string"
+    },
+    "OriginalPayType": {
+      "type": "string"
+    },
+    "PayrollWeekendingDate": {
+      "type": "string"
+    },
+    "WeekNumber": {
+      "type": "number"
+    },
+    "DifferentialHours": {
+      "type": "number"
+    },
+    "DifferentialRate": {
+      "type": "string"
+    },
+    "DifferentialAmount": {
+      "type": "string"
+    },
+    "DisplayPatientOnStub": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,63 @@
+{
+  "name": "POCTask",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ID": {
+      "type": "number"
+    },
+    "Code": {
+      "type": "number"
+    },
+    "Category": {
+      "type": "POCCategory"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "AsNeeded": {
+      "type": "string"
+    },
+    "WeeklyMin": {
+      "type": "number"
+    },
+    "WeeklyMax": {
+      "type": "number"
+    },
+    "Instruction": {
+      "type": "string"
+    },
+    "Sunday": {
+      "type": "string"
+    },
+    "Monday": {
+      "type": "string"
+    },
+    "Tuesday": {
+      "type": "string"
+    },
+    "Wednesday": {
+      "type": "string"
+    },
+    "Thursday": {
+      "type": "string"
+    },
+    "Friday": {
+      "type": "string"
+    },
+    "Saturday": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

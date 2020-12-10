@@ -1,0 +1,24 @@
+{
+  "name": "UpdateCaregiverI9Requirements",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authentication": {
+      "type": "AppParams"
+    },
+    "UpdateCaregiverI9RequirementsInfo": {
+      "type": "UpdateCaregiverI9RequirementsInfo"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,30 @@
+{
+  "name": "NotificationPreferences",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "MethodID": {
+      "type": "number"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "MobileOrSMS": {
+      "type": "string"
+    },
+    "VoiceMessage": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

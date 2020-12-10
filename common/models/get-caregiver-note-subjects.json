@@ -1,0 +1,24 @@
+{
+  "name": "GetCaregiverNoteSubjects",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authentication": {
+      "type": "AppParams"
+    },
+    "SearchFilters": {
+      "type": "CaregiverNoteSubjectsSearchFilter"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

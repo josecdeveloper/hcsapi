@@ -1,0 +1,33 @@
+{
+  "name": "ServiceCodesInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ServiceCodeID": {
+      "type": "number"
+    },
+    "ServiceCodeName": {
+      "type": "string"
+    },
+    "ContractName": {
+      "type": "string"
+    },
+    "ContractID": {
+      "type": "string"
+    },
+    "Discipline": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

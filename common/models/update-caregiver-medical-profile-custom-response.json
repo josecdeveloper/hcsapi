@@ -1,0 +1,24 @@
+{
+  "name": "UpdateCaregiverMedicalProfileCustomResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Result": {
+      "type": "Result"
+    },
+    "CaregiverCustomMedicalProfileResults": {
+      "type": "CaregiverCustomMedicalProfileResults"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

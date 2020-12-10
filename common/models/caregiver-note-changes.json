@@ -1,0 +1,39 @@
+{
+  "name": "CaregiverNoteChanges",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverNoteID": {
+      "type": "number"
+    },
+    "CaregiverID": {
+      "type": "number"
+    },
+    "SubjectID": {
+      "type": "number"
+    },
+    "NoteDate": {
+      "type": "string"
+    },
+    "Note": {
+      "type": "string"
+    },
+    "PatientID": {
+      "type": "number"
+    },
+    "CaregiverNotified": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

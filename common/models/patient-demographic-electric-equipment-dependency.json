@@ -1,0 +1,23 @@
+{
+  "name": "PatientDemographicElectricEquipmentDependency",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ElectricEquipment": {
+      "type": [
+        "PatientDemographicElectricEquipment"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

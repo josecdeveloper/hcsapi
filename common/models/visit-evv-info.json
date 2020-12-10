@@ -1,0 +1,72 @@
+{
+  "name": "VisitEVVInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverID": {
+      "type": "number"
+    },
+    "VisitID": {
+      "type": "number"
+    },
+    "TimeAndAttPIN": {
+      "type": "number"
+    },
+    "CaregiverCode": {
+      "type": "string"
+    },
+    "PatientID": {
+      "type": "number"
+    },
+    "CallerID": {
+      "type": "number"
+    },
+    "AdmissionID": {
+      "type": "string"
+    },
+    "CallType": {
+      "type": "string"
+    },
+    "CallTime": {
+      "type": "dateTime"
+    },
+    "CallDuration": {
+      "type": "number"
+    },
+    "Duties": {
+      "type": "ArrayOfDuty"
+    },
+    "MealInterruptMinutes": {
+      "type": "number"
+    },
+    "SleepInterruptMinutes": {
+      "type": "number"
+    },
+    "Notes": {
+      "type": "string"
+    },
+    "ReasonCode": {
+      "type": "number"
+    },
+    "ActionCode": {
+      "type": "number"
+    },
+    "TimesheetRequired": {
+      "type": "string"
+    },
+    "TimesheetApproved": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

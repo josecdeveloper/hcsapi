@@ -1,0 +1,54 @@
+{
+  "name": "CreateReferralSourceRequestData",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ReferralSourceID": {
+      "type": "number"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "ReferralSourceTypeId": {
+      "type": "number"
+    },
+    "ReferralSourceTypeOther": {
+      "type": "string"
+    },
+    "ParentReferralSourceId": {
+      "type": "number"
+    },
+    "FacilityNumberOfBeds": {
+      "type": "string"
+    },
+    "FacilityYearlyDischarges": {
+      "type": "string"
+    },
+    "AccountManagerId": {
+      "type": "number"
+    },
+    "MarketerId": {
+      "type": "number"
+    },
+    "Website": {
+      "type": "string"
+    },
+    "StatusID": {
+      "type": "number"
+    },
+    "Offices": {
+      "type": "OfficeIDList"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

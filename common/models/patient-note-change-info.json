@@ -1,0 +1,69 @@
+{
+  "name": "PatientNoteChangeInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PatientNoteID": {
+      "type": "number"
+    },
+    "PatientID": {
+      "type": "number"
+    },
+    "AgencyID": {
+      "type": "number"
+    },
+    "PayerID": {
+      "type": "number"
+    },
+    "CreatedBy": {
+      "type": "string"
+    },
+    "NoteDate": {
+      "type": "string"
+    },
+    "NoteFrom": {
+      "type": "string"
+    },
+    "NoteReason": {
+      "type": "string"
+    },
+    "NoteType": {
+      "type": "string"
+    },
+    "FromDate": {
+      "type": "string"
+    },
+    "ToDate": {
+      "type": "string"
+    },
+    "StartDate": {
+      "type": "string"
+    },
+    "ReplacementCaregiverID": {
+      "type": "number"
+    },
+    "Note": {
+      "type": "string"
+    },
+    "EmergencyOfPriority": {
+      "type": "string"
+    },
+    "EmailTo": {
+      "type": "string"
+    },
+    "Internal": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

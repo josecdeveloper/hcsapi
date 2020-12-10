@@ -1,0 +1,23 @@
+{
+  "name": "VisitDeleteReasons",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "DeleteVisitReason": {
+      "type": [
+        "VisitDeleteReasonInfo"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

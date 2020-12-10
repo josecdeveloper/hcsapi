@@ -1,0 +1,39 @@
+{
+  "name": "SavePatientSpecialPreference",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PatientID": {
+      "type": "number"
+    },
+    "PrimaryLanguageID": {
+      "type": "number"
+    },
+    "SecondaryLanguageID": {
+      "type": "number"
+    },
+    "PreferredGenderID": {
+      "type": "number"
+    },
+    "Other": {
+      "type": "string"
+    },
+    "ScheduledPreferences": {
+      "type": "PreferenceList"
+    },
+    "NotScheduledPreferences": {
+      "type": "PreferenceList"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

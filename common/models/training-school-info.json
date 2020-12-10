@@ -1,0 +1,51 @@
+{
+  "name": "TrainingSchoolInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "TrainingSchoolID": {
+      "type": "number"
+    },
+    "SetupID": {
+      "type": "number"
+    },
+    "TrainingSchoolName": {
+      "type": "string"
+    },
+    "CertificationDate": {
+      "type": "string"
+    },
+    "IsVerification": {
+      "type": "string"
+    },
+    "OnFile": {
+      "type": "string"
+    },
+    "VerificationDate": {
+      "type": "string"
+    },
+    "CertificationVerified": {
+      "type": "string"
+    },
+    "DisciplineText": {
+      "type": "string"
+    },
+    "InstructorName": {
+      "type": "string"
+    },
+    "Default": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

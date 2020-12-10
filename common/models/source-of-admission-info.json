@@ -1,0 +1,24 @@
+{
+  "name": "SourceOfAdmissionInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "SourceOfAdmissionID": {
+      "type": "number"
+    },
+    "SourceOfAdmissionName": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

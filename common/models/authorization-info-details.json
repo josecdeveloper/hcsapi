@@ -1,0 +1,84 @@
+{
+  "name": "AuthorizationInfoDetails",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Patient": {
+      "type": "AuthorizationPatient"
+    },
+    "AuthorizationID": {
+      "type": "number"
+    },
+    "Contract": {
+      "type": "PatientAuthContract"
+    },
+    "Discipline": {
+      "type": "PatientAuthDiscipline"
+    },
+    "AuthorizationNumber": {
+      "type": "string"
+    },
+    "ServiceCode": {
+      "type": "PatientAuthServiceCode"
+    },
+    "StartDate": {
+      "type": "string"
+    },
+    "StopDate": {
+      "type": "string"
+    },
+    "MaxUnits": {
+      "type": "number"
+    },
+    "RemainingUnits": {
+      "type": "number"
+    },
+    "BankedHours": {
+      "type": "string"
+    },
+    "Period": {
+      "type": "PatientAuthPeriod"
+    },
+    "DailyMaxAuthorization": {
+      "type": "DailyMaxAuthorization"
+    },
+    "WeeklyMaxAuthorization": {
+      "type": "number"
+    },
+    "EntirePeriodMaxAuthorization": {
+      "type": "number"
+    },
+    "MonthlyMaxAuthorization": {
+      "type": "number"
+    },
+    "SpecificDateType": {
+      "type": "string"
+    },
+    "Weekday": {
+      "type": "string"
+    },
+    "Weekend": {
+      "type": "string"
+    },
+    "Notes": {
+      "type": "string"
+    },
+    "IsAdditionalRule": {
+      "type": "string"
+    },
+    "AdditionalRules": {
+      "type": "AdditionalRules"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

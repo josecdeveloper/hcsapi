@@ -1,0 +1,39 @@
+{
+  "name": "UpdatePatientClinicalInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PatientID": {
+      "type": "number"
+    },
+    "Comments": {
+      "type": "string"
+    },
+    "Allergies": {
+      "type": "string"
+    },
+    "NursingVisitsDue": {
+      "type": "number"
+    },
+    "MDOrderRequired": {
+      "type": "string"
+    },
+    "MDOrderDue": {
+      "type": "number"
+    },
+    "MDVisitDue": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

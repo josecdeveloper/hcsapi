@@ -1,0 +1,42 @@
+{
+  "name": "PrimaryVisitBillTo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Contract": {
+      "type": "Contract"
+    },
+    "ServiceCode": {
+      "type": "ServiceCode"
+    },
+    "AdjustmentMinutes": {
+      "type": "number"
+    },
+    "IsBilled": {
+      "type": "string"
+    },
+    "BilledRate": {
+      "type": "number"
+    },
+    "BilledMinutes": {
+      "type": "number"
+    },
+    "BilledAmount": {
+      "type": "number"
+    },
+    "Invoice": {
+      "type": "Invoice"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

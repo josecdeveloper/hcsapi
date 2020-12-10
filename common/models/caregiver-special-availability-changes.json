@@ -1,0 +1,23 @@
+{
+  "name": "CaregiverSpecialAvailabilityChanges",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "SpecialAvailabilityInfo": {
+      "type": [
+        "CaregiverSpecialAvailabilityChangesInfo"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

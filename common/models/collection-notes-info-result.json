@@ -1,0 +1,33 @@
+{
+  "name": "CollectionNotesInfoResult",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CollectionNotesDetailID": {
+      "type": "number"
+    },
+    "VisitID": {
+      "type": "number"
+    },
+    "ContractID": {
+      "type": "number"
+    },
+    "PatientID": {
+      "type": "number"
+    },
+    "OtherChargeID": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

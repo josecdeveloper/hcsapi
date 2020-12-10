@@ -1,0 +1,36 @@
+{
+  "name": "Authorization",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ID": {
+      "type": "number"
+    },
+    "StartDate": {
+      "type": "string"
+    },
+    "StopDate": {
+      "type": "string"
+    },
+    "AuthorizationNumber": {
+      "type": "string"
+    },
+    "ContractID": {
+      "type": "string"
+    },
+    "ContractName": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

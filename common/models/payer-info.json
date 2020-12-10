@@ -1,0 +1,27 @@
+{
+  "name": "PayerInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PayerID": {
+      "type": "number"
+    },
+    "PayerName": {
+      "type": "string"
+    },
+    "Offices": {
+      "type": "OfficesData"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

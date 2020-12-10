@@ -1,0 +1,48 @@
+{
+  "name": "PatientAddresses",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AddressID": {
+      "type": "number"
+    },
+    "Address1": {
+      "type": "string"
+    },
+    "Address2": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "County": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "Zip5": {
+      "type": "number"
+    },
+    "Zip4": {
+      "type": "number"
+    },
+    "CrossStreet": {
+      "type": "string"
+    },
+    "Notes": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

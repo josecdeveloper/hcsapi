@@ -1,0 +1,21 @@
+{
+  "name": "UpdatePatientPreferenceResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "UpdatePatientPreferenceResult": {
+      "type": "SavePatientSpecialPreferenceResponse"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

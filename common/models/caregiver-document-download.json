@@ -1,0 +1,33 @@
+{
+  "name": "CaregiverDocumentDownload",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverDocID": {
+      "type": "number"
+    },
+    "ContentType": {
+      "type": "string"
+    },
+    "FileName": {
+      "type": "string"
+    },
+    "StreamData": {
+      "type": "string"
+    },
+    "FileSize": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

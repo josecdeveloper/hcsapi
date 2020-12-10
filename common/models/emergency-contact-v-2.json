@@ -1,0 +1,45 @@
+{
+  "name": "EmergencyContactV2",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Name": {
+      "type": "string"
+    },
+    "RelationshipID": {
+      "type": "number"
+    },
+    "RelationshipName": {
+      "type": "string"
+    },
+    "RelationshipOther": {
+      "type": "string"
+    },
+    "LiveswithPatient": {
+      "type": "string"
+    },
+    "HaveKeys": {
+      "type": "string"
+    },
+    "Phone1": {
+      "type": "string"
+    },
+    "Phone2": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

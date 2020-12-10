@@ -1,0 +1,45 @@
+{
+  "name": "CaregiverDocument",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverDocID": {
+      "type": "number"
+    },
+    "CaregiverID": {
+      "type": "number"
+    },
+    "CaregiverDocumentTypeID": {
+      "type": "number"
+    },
+    "CaregiverDocumentType": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "FileName": {
+      "type": "string"
+    },
+    "CreatedBy": {
+      "type": "string"
+    },
+    "CreatedOn": {
+      "type": "dateTime"
+    },
+    "FileSize": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

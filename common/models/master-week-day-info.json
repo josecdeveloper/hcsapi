@@ -1,0 +1,51 @@
+{
+  "name": "MasterWeekDayInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ScheduleStartTime": {
+      "type": "string"
+    },
+    "ScheduleEndTime": {
+      "type": "string"
+    },
+    "CaregiverID": {
+      "type": "number"
+    },
+    "PayCodeID": {
+      "type": "number"
+    },
+    "PrimaryContractID": {
+      "type": "number"
+    },
+    "PrimaryContractHours": {
+      "type": "string"
+    },
+    "PrimaryContractServiceCodeID": {
+      "type": "number"
+    },
+    "SecondaryContractID": {
+      "type": "number"
+    },
+    "SecondaryContractHours": {
+      "type": "string"
+    },
+    "SecondaryContractServiceCodeID": {
+      "type": "number"
+    },
+    "IncludeInMileage": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

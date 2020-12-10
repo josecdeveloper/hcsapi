@@ -1,0 +1,57 @@
+{
+  "name": "PatientContractInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AgencyID": {
+      "type": "number"
+    },
+    "PlacementID": {
+      "type": "number"
+    },
+    "ContractID": {
+      "type": "number"
+    },
+    "ModifiedDate": {
+      "type": "string"
+    },
+    "ChangeSequenceNumber": {
+      "type": "number"
+    },
+    "Action": {
+      "type": "string"
+    },
+    "IsPrimaryContract": {
+      "type": "string"
+    },
+    "AltPatientID": {
+      "type": "string"
+    },
+    "ServiceStartDate": {
+      "type": "string"
+    },
+    "SourceofAdmissionID": {
+      "type": "number"
+    },
+    "ServiceCodeID": {
+      "type": "number"
+    },
+    "DischargeDate": {
+      "type": "string"
+    },
+    "DischargeToID": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

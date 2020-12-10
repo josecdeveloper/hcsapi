@@ -1,0 +1,72 @@
+{
+  "name": "VisitPayrollInfoDetails",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ID": {
+      "type": "number"
+    },
+    "VisitDate": {
+      "type": "string"
+    },
+    "Patient": {
+      "type": "Patient"
+    },
+    "Caregiver": {
+      "type": "NewCaregiver"
+    },
+    "ScheduleStartTime": {
+      "type": "string"
+    },
+    "ScheduleEndTime": {
+      "type": "string"
+    },
+    "VisitStartTime": {
+      "type": "string"
+    },
+    "VisitEndTime": {
+      "type": "string"
+    },
+    "IsMissedVisit": {
+      "type": "string"
+    },
+    "PrimaryContract": {
+      "type": "PrimaryContract"
+    },
+    "BillingServiceCode": {
+      "type": "BillingServiceCode"
+    },
+    "BilledMinutes": {
+      "type": "number"
+    },
+    "BilledAmount": {
+      "type": "number"
+    },
+    "PayrollAdjustmentMinutes": {
+      "type": "number"
+    },
+    "Payrolldate": {
+      "type": "string"
+    },
+    "RegularHours": {
+      "type": "BillHours"
+    },
+    "OTHours": {
+      "type": "BillHours"
+    },
+    "HolidayHours": {
+      "type": "BillHours"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,78 @@
+{
+  "name": "CreateScheduleInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PatientID": {
+      "type": "number"
+    },
+    "AdmissionID": {
+      "type": "string"
+    },
+    "PatientFirstName": {
+      "type": "string"
+    },
+    "PatientLastName": {
+      "type": "string"
+    },
+    "PatientDateOfBirth": {
+      "type": "dateTime"
+    },
+    "ScheduleType": {
+      "type": "string"
+    },
+    "VisitDate": {
+      "type": "dateTime"
+    },
+    "ScheduleStartTime": {
+      "type": "string"
+    },
+    "ScheduleEndTime": {
+      "type": "string"
+    },
+    "IsScheduleTemporary": {
+      "type": "string"
+    },
+    "CaregiverID": {
+      "type": "number"
+    },
+    "CaregiverCode": {
+      "type": "string"
+    },
+    "CaregiverFirstName": {
+      "type": "string"
+    },
+    "CaregiverLastName": {
+      "type": "string"
+    },
+    "CaregiverDateOfBirth": {
+      "type": "dateTime"
+    },
+    "PayCodeID": {
+      "type": "number"
+    },
+    "PayCodeName": {
+      "type": "string"
+    },
+    "IsCaregiverTemporary": {
+      "type": "string"
+    },
+    "PrimaryBillTo": {
+      "type": "CreateScheduleBillTo"
+    },
+    "SecondaryBillTo": {
+      "type": "CreateScheduleBillTo"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

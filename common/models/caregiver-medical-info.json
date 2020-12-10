@@ -1,0 +1,42 @@
+{
+  "name": "CaregiverMedicalInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "MedicalID": {
+      "type": "number"
+    },
+    "MedicalName": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "string"
+    },
+    "Require": {
+      "type": "string"
+    },
+    "Disciplines": {
+      "type": "DisciplineDetails2"
+    },
+    "OfficeID": {
+      "type": "number"
+    },
+    "OfficeName": {
+      "type": "string"
+    },
+    "ComplianceSetupName": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

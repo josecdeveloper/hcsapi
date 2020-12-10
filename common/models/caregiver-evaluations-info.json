@@ -1,0 +1,36 @@
+{
+  "name": "CaregiverEvaluationsInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverEvaluationID": {
+      "type": "number"
+    },
+    "EvaluationCode": {
+      "type": "string"
+    },
+    "CompletionDate": {
+      "type": "string"
+    },
+    "ExpirationDate": {
+      "type": "string"
+    },
+    "Note": {
+      "type": "string"
+    },
+    "Score": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

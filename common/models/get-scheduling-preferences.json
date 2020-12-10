@@ -1,0 +1,27 @@
+{
+  "name": "GetSchedulingPreferences",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "OfficeID": {
+      "type": "string"
+    },
+    "AppliesTo": {
+      "type": "string"
+    },
+    "Status": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

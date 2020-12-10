@@ -1,0 +1,51 @@
+{
+  "name": "UpdatePatientReferralInfoData",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PatientID": {
+      "type": "number"
+    },
+    "ReferralMasterID": {
+      "type": "number"
+    },
+    "ComissionStatus": {
+      "type": "number"
+    },
+    "ReceivedDate": {
+      "type": "string"
+    },
+    "ReferralSourceId": {
+      "type": "number"
+    },
+    "ReferralStatusId": {
+      "type": "number"
+    },
+    "ReferralLostReasonID": {
+      "type": "number"
+    },
+    "ReferralLostReasonNote": {
+      "type": "string"
+    },
+    "ReferralContactId": {
+      "type": "number"
+    },
+    "AccountManagerId": {
+      "type": "number"
+    },
+    "IntakePersonId": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

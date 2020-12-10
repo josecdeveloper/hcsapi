@@ -1,0 +1,30 @@
+{
+  "name": "CaregiverNotificationPreferences",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Method": {
+      "type": "Method"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "MobileOrSMS": {
+      "type": "string"
+    },
+    "VoiceMessage": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

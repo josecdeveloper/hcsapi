@@ -1,0 +1,30 @@
+{
+  "name": "SearchVisit",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "StartDate": {
+      "type": "dateTime"
+    },
+    "EndDate": {
+      "type": "dateTime"
+    },
+    "PatientID": {
+      "type": "number"
+    },
+    "CaregiverID": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,90 @@
+{
+  "name": "UpdateAuthorizationInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AuthorizationID": {
+      "type": "number"
+    },
+    "ContractID": {
+      "type": "number"
+    },
+    "DisciplineID": {
+      "type": "number"
+    },
+    "ServiceCodeID": {
+      "type": "number"
+    },
+    "AuthorizationNumber": {
+      "type": "string"
+    },
+    "FromDate": {
+      "type": "dateTime"
+    },
+    "ToDate": {
+      "type": "dateTime"
+    },
+    "HoursPerAuthPeriod": {
+      "type": "number"
+    },
+    "BankedHours": {
+      "type": "string"
+    },
+    "IsAdditionalRules": {
+      "type": "string"
+    },
+    "Period": {
+      "type": "string"
+    },
+    "SpecificDateType": {
+      "type": "boolean"
+    },
+    "WeekDay": {
+      "type": "boolean"
+    },
+    "WeekEnd": {
+      "type": "boolean"
+    },
+    "MaxHoursPeriod": {
+      "type": "number"
+    },
+    "SatMinutes": {
+      "type": "number"
+    },
+    "SunMinutes": {
+      "type": "number"
+    },
+    "MonMinutes": {
+      "type": "number"
+    },
+    "TueMinutes": {
+      "type": "number"
+    },
+    "WedMinutes": {
+      "type": "number"
+    },
+    "ThuMinutes": {
+      "type": "number"
+    },
+    "FriMinutes": {
+      "type": "number"
+    },
+    "AdditionalRules": {
+      "type": "UpdateAdditionalRules"
+    },
+    "Notes": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

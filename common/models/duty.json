@@ -1,0 +1,30 @@
+{
+  "name": "Duty",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "DutyCode": {
+      "type": "number"
+    },
+    "AdditionalData": {
+      "type": "number"
+    },
+    "Status": {
+      "type": "string"
+    },
+    "RefusedReasonCode": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

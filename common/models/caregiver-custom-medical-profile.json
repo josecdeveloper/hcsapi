@@ -1,0 +1,45 @@
+{
+  "name": "CaregiverCustomMedicalProfile",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AgencyID": {
+      "type": "number"
+    },
+    "CaregiverID": {
+      "type": "number"
+    },
+    "CaregiverCode": {
+      "type": "string"
+    },
+    "PhysicalDate": {
+      "type": "dateTime"
+    },
+    "TetanusDate": {
+      "type": "dateTime"
+    },
+    "PPDDate": {
+      "type": "dateTime"
+    },
+    "PPDResult": {
+      "type": "string"
+    },
+    "PPD2Date": {
+      "type": "dateTime"
+    },
+    "PPD2Result": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,30 @@
+{
+  "name": "InserviceTopicsInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Topic": {
+      "type": "string"
+    },
+    "OfficeID": {
+      "type": "number"
+    },
+    "Status": {
+      "type": "string"
+    },
+    "CountTowardsCompliance": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

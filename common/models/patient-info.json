@@ -1,0 +1,69 @@
+{
+  "name": "PatientInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PatientID": {
+      "type": "number"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "MiddleName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "AdmissionID": {
+      "type": "string"
+    },
+    "Coordinators": {
+      "type": "CoordinatorData"
+    },
+    "AcceptedServices": {
+      "type": "DisciplineInfo"
+    },
+    "PrimaryContract": {
+      "type": "ItemInfo"
+    },
+    "Team": {
+      "type": "ItemInfo"
+    },
+    "Location": {
+      "type": "ItemInfo"
+    },
+    "Branch": {
+      "type": "ItemInfo"
+    },
+    "PrimaryLanguage": {
+      "type": "ItemInfo"
+    },
+    "City": {
+      "type": "string"
+    },
+    "Zip5": {
+      "type": "number"
+    },
+    "Zip4": {
+      "type": "number"
+    },
+    "State": {
+      "type": "string"
+    },
+    "Nurse": {
+      "type": "ItemInfo"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

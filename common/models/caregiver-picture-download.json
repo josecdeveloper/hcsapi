@@ -1,0 +1,30 @@
+{
+  "name": "CaregiverPictureDownload",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverID": {
+      "type": "number"
+    },
+    "ContentType": {
+      "type": "string"
+    },
+    "FileName": {
+      "type": "string"
+    },
+    "StreamData": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "AddCaregiverPermanentWeekAvailabilityResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Result": {
+      "type": "Result"
+    },
+    "PermanentWeekID": {
+      "type": "number"
+    },
+    "CaregiverID": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

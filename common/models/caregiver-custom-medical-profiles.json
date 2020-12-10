@@ -1,0 +1,23 @@
+{
+  "name": "CaregiverCustomMedicalProfiles",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverCustomMedicalProfile": {
+      "type": [
+        "CaregiverCustomMedicalProfile"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

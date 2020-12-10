@@ -1,0 +1,23 @@
+{
+  "name": "CollectionReasonForNonPaymentResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CollectionReasonForNonPayment": {
+      "type": [
+        "CollectionReasonForNonPaymentInfo"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,39 @@
+{
+  "name": "CaregiverNoteInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverID": {
+      "type": "number"
+    },
+    "SubjectID": {
+      "type": "number"
+    },
+    "Note": {
+      "type": "string"
+    },
+    "PatientID": {
+      "type": "number"
+    },
+    "PayerPatientNote": {
+      "type": "string"
+    },
+    "ReasonID": {
+      "type": "number"
+    },
+    "SendNotifications": {
+      "type": "SendNotifications"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

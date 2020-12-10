@@ -1,0 +1,54 @@
+{
+  "name": "AllSearchFilter",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ReferralID": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "OfficeID": {
+      "type": "number"
+    },
+    "ReferralStatusID": {
+      "type": "number"
+    },
+    "ReferralSourceID": {
+      "type": "number"
+    },
+    "ReferralDateFrom": {
+      "type": "string"
+    },
+    "ReferralDateTo": {
+      "type": "string"
+    },
+    "SalesStaffID": {
+      "type": "number"
+    },
+    "ReferralContractID": {
+      "type": "number"
+    },
+    "AdmittedDateFrom": {
+      "type": "string"
+    },
+    "AdmittedDateTo": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

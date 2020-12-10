@@ -1,0 +1,33 @@
+{
+  "name": "GetCaregiverRestrictionInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "RestrictionID": {
+      "type": "number"
+    },
+    "RestrictionStartDate": {
+      "type": "string"
+    },
+    "RestrictionEndDate": {
+      "type": "string"
+    },
+    "Reason": {
+      "type": "string"
+    },
+    "Contract": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

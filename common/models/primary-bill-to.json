@@ -1,0 +1,30 @@
+{
+  "name": "PrimaryBillTo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Contract": {
+      "type": "Contract"
+    },
+    "ServiceCode": {
+      "type": "ServiceCode"
+    },
+    "Hours": {
+      "type": "number"
+    },
+    "Minutes": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

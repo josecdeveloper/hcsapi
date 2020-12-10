@@ -1,0 +1,144 @@
+{
+  "name": "CaregiverDetails",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "OfficeID": {
+      "type": "number"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "MiddleName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Initials": {
+      "type": "string"
+    },
+    "Gender": {
+      "type": "string"
+    },
+    "Dependents": {
+      "type": "string"
+    },
+    "BirthDate": {
+      "type": "dateTime"
+    },
+    "CaregiverCode": {
+      "type": "number"
+    },
+    "AlternateCaregiverCode": {
+      "type": "string"
+    },
+    "MobileID": {
+      "type": "number"
+    },
+    "MobileIDType": {
+      "type": "string"
+    },
+    "SSN": {
+      "type": "string"
+    },
+    "EthnicityID": {
+      "type": "number"
+    },
+    "RehireDate": {
+      "type": "dateTime"
+    },
+    "CountryOfBirth": {
+      "type": "string"
+    },
+    "MaritalStatus": {
+      "type": "string"
+    },
+    "StatusID": {
+      "type": "number"
+    },
+    "EmploymentTypes": {
+      "type": "EmploymentTypes"
+    },
+    "EmployeeID": {
+      "type": "string"
+    },
+    "ApplicationDate": {
+      "type": "dateTime"
+    },
+    "TeamID": {
+      "type": "number"
+    },
+    "BranchID": {
+      "type": "number"
+    },
+    "LocationID": {
+      "type": "number"
+    },
+    "HHAPCARegistryNumber": {
+      "type": "string"
+    },
+    "HHAPCARegistryCheckedDate": {
+      "type": "dateTime"
+    },
+    "NYCRegistryCheckedDate": {
+      "type": "dateTime"
+    },
+    "ReferralSourceID": {
+      "type": "number"
+    },
+    "ReferralPerson": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "CaregiverAddress"
+    },
+    "EmergencyContacts": {
+      "type": "CreateCaregiverEmergencyContacts"
+    },
+    "NotificationPreferences": {
+      "type": "CareteCaregiverNotificationPreferences"
+    },
+    "Language1": {
+      "type": "number"
+    },
+    "Language2": {
+      "type": "number"
+    },
+    "Language3": {
+      "type": "number"
+    },
+    "Language4": {
+      "type": "number"
+    },
+    "EmployeeType": {
+      "type": "string"
+    },
+    "ProfessionalLicensenumber": {
+      "type": "string"
+    },
+    "NPI": {
+      "type": "string"
+    },
+    "InactiveReason": {
+      "type": "number"
+    },
+    "InactiveNote": {
+      "type": "string"
+    },
+    "SignedPayrollAgreementDate": {
+      "type": "dateTime"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

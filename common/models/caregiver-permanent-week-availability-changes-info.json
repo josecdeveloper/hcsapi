@@ -1,0 +1,123 @@
+{
+  "name": "CaregiverPermanentWeekAvailabilityChangesInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AgencyID": {
+      "type": "number"
+    },
+    "OfficeID": {
+      "type": "number"
+    },
+    "CaregiverID": {
+      "type": "number"
+    },
+    "PermanentWeekID": {
+      "type": "number"
+    },
+    "ModifiedDate": {
+      "type": "string"
+    },
+    "ChangeSequenceNumber": {
+      "type": "number"
+    },
+    "Action": {
+      "type": "string"
+    },
+    "SaturdayAvailabilityType": {
+      "type": "string"
+    },
+    "SaturdayLiveIn": {
+      "type": "string"
+    },
+    "SaturdayFrom": {
+      "type": "string"
+    },
+    "SaturdayTo": {
+      "type": "string"
+    },
+    "SundayAvailabilityType": {
+      "type": "string"
+    },
+    "SundayLiveIn": {
+      "type": "string"
+    },
+    "SundayFrom": {
+      "type": "string"
+    },
+    "SundayTo": {
+      "type": "string"
+    },
+    "MondayAvailabilityType": {
+      "type": "string"
+    },
+    "MondayLiveIn": {
+      "type": "string"
+    },
+    "MondayFrom": {
+      "type": "string"
+    },
+    "MondayTo": {
+      "type": "string"
+    },
+    "TuesdayAvailabilityType": {
+      "type": "string"
+    },
+    "TuesdayLiveIn": {
+      "type": "string"
+    },
+    "TuesdayFrom": {
+      "type": "string"
+    },
+    "TuesdayTo": {
+      "type": "string"
+    },
+    "WednesdayAvailabilityType": {
+      "type": "string"
+    },
+    "WednesdayFrom": {
+      "type": "string"
+    },
+    "WednesdayTo": {
+      "type": "string"
+    },
+    "WednesdayLiveIn": {
+      "type": "string"
+    },
+    "ThursdayAvailabilityType": {
+      "type": "string"
+    },
+    "ThursdayFrom": {
+      "type": "string"
+    },
+    "ThursdayTo": {
+      "type": "string"
+    },
+    "ThursdayLiveIn": {
+      "type": "string"
+    },
+    "FridayAvailabilityType": {
+      "type": "string"
+    },
+    "FridayLiveIn": {
+      "type": "string"
+    },
+    "FridayFrom": {
+      "type": "string"
+    },
+    "FridayTo": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,26 @@
+{
+  "name": "GetCaregiverPTOAccrualTypesResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Result": {
+      "type": "Result"
+    },
+    "GetCaregiverPTOAccrualTypes": {
+      "type": [
+        "GetCaregiverPTOAccrualTypes"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,47 @@
+{
+  "name": "PatientSpecialPreferenceInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PatientID": {
+      "type": "string"
+    },
+    "RequestGenderID": {
+      "type": "string"
+    },
+    "RequestGender": {
+      "type": "string"
+    },
+    "PrimaryLanguageID": {
+      "type": "string"
+    },
+    "PrimaryLanguage": {
+      "type": "string"
+    },
+    "SecondaryLanguageID": {
+      "type": "string"
+    },
+    "SecondaryLanguage": {
+      "type": "string"
+    },
+    "RequestOther": {
+      "type": "string"
+    },
+    "PreferenceInfo": {
+      "type": [
+        "CaregiverPreferenceDetails"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

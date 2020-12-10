@@ -1,0 +1,27 @@
+{
+  "name": "CollectionRepresentativesInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "RefCollectionRepID": {
+      "type": "number"
+    },
+    "CollectionRep": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

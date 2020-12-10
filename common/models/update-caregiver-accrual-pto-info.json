@@ -1,0 +1,30 @@
+{
+  "name": "UpdateCaregiverAccrualPTOInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverID": {
+      "type": "number"
+    },
+    "PTOAccrualTypeID": {
+      "type": "number"
+    },
+    "AccruedPTOMinutes": {
+      "type": "number"
+    },
+    "PTOImportDate": {
+      "type": "dateTime"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

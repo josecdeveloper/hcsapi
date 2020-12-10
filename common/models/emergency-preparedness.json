@@ -1,0 +1,36 @@
+{
+  "name": "EmergencyPreparedness",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "MobilityStatusID": {
+      "type": "number"
+    },
+    "EvacuationZoneID": {
+      "type": "number"
+    },
+    "EvacuationLocationID": {
+      "type": "number"
+    },
+    "OtherEvacuationLocation": {
+      "type": "string"
+    },
+    "ElectricEquipmentDependency": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

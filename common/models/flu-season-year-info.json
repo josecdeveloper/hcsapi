@@ -1,0 +1,30 @@
+{
+  "name": "FluSeasonYearInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "FluSeasonRangeID": {
+      "type": "number"
+    },
+    "YearOfMedical": {
+      "type": "string"
+    },
+    "FromDate": {
+      "type": "dateTime"
+    },
+    "ToDate": {
+      "type": "dateTime"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

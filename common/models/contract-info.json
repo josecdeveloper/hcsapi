@@ -1,0 +1,30 @@
+{
+  "name": "ContractInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ContractID": {
+      "type": "number"
+    },
+    "ContractName": {
+      "type": "string"
+    },
+    "Offices": {
+      "type": "OfficesData"
+    },
+    "Active": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,60 @@
+{
+  "name": "CaregiverAbsenceChangesInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AgencyID": {
+      "type": "number"
+    },
+    "OfficeID": {
+      "type": "number"
+    },
+    "CaregiverAbsenceID": {
+      "type": "number"
+    },
+    "CaregiverID": {
+      "type": "number"
+    },
+    "ModifiedDate": {
+      "type": "string"
+    },
+    "ChangeSequenceNumber": {
+      "type": "number"
+    },
+    "Action": {
+      "type": "string"
+    },
+    "AbsenceTypeID": {
+      "type": "number"
+    },
+    "AbsenceTypeName": {
+      "type": "string"
+    },
+    "StartDate": {
+      "type": "string"
+    },
+    "EndDate": {
+      "type": "string"
+    },
+    "ContractID": {
+      "type": "number"
+    },
+    "PayRateID": {
+      "type": "number"
+    },
+    "Notes": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

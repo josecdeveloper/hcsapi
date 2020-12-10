@@ -1,0 +1,177 @@
+{
+  "name": "PatientDemographicInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AgencyID": {
+      "type": "number"
+    },
+    "OfficeID": {
+      "type": "number"
+    },
+    "PatientID": {
+      "type": "number"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "MiddleName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "BirthDate": {
+      "type": "string"
+    },
+    "Gender": {
+      "type": "string"
+    },
+    "Coordinators": {
+      "type": "PatientDemographicCoordinators"
+    },
+    "PriorityCode": {
+      "type": "number"
+    },
+    "ServiceRequestStartDate": {
+      "type": "string"
+    },
+    "Nurse": {
+      "type": "PatientDemographicNurse"
+    },
+    "AdmissionID": {
+      "type": "string"
+    },
+    "MedicaidNumber": {
+      "type": "string"
+    },
+    "MedicareNumber": {
+      "type": "string"
+    },
+    "AcceptedServices": {
+      "type": "PatientDemographicAcceptedServices"
+    },
+    "SSN": {
+      "type": "string"
+    },
+    "Alerts": {
+      "type": "string"
+    },
+    "SourceOfAdmission": {
+      "type": "PatientDemographicSourceOfAdmission"
+    },
+    "Team": {
+      "type": "PatientDemographicTeam"
+    },
+    "Location": {
+      "type": "PatientDemographicLocation"
+    },
+    "Branch": {
+      "type": "PatientDemographicBranch"
+    },
+    "Addresses": {
+      "type": "AddressesInfo"
+    },
+    "HomePhone": {
+      "type": "string"
+    },
+    "Phone2": {
+      "type": "string"
+    },
+    "Phone2Description": {
+      "type": "string"
+    },
+    "Phone3": {
+      "type": "string"
+    },
+    "Phone3Description": {
+      "type": "string"
+    },
+    "HomePhoneLocationAddressID": {
+      "type": "string"
+    },
+    "HomePhoneLocationAddress": {
+      "type": "string"
+    },
+    "HomePhone2LocationAddressID": {
+      "type": "string"
+    },
+    "HomePhone2LocationAddress": {
+      "type": "string"
+    },
+    "HomePhone3LocationAddressID": {
+      "type": "string"
+    },
+    "HomePhone3LocationAddress": {
+      "type": "string"
+    },
+    "Direction": {
+      "type": "string"
+    },
+    "AlternateBilling": {
+      "type": "GetPatientDemographicAlternateBilling"
+    },
+    "EmergencyContacts": {
+      "type": "PatientDemographicEmergencyContacts"
+    },
+    "EmergencyPreparedness": {
+      "type": "PatientDemographicEmergencyPreparedness"
+    },
+    "PayerID": {
+      "type": "number"
+    },
+    "PayerName": {
+      "type": "string"
+    },
+    "PayerCoordinatorID": {
+      "type": "number"
+    },
+    "PayerCoordinatorName": {
+      "type": "string"
+    },
+    "PatientStatusID": {
+      "type": "number"
+    },
+    "PatientStatusName": {
+      "type": "string"
+    },
+    "WageParity": {
+      "type": "string"
+    },
+    "WageParityFromDate1": {
+      "type": "string"
+    },
+    "WageParityToDate1": {
+      "type": "string"
+    },
+    "WageParityFromDate2": {
+      "type": "string"
+    },
+    "WageParityToDate2": {
+      "type": "string"
+    },
+    "PrimaryLanguageID": {
+      "type": "number"
+    },
+    "PrimaryLanguage": {
+      "type": "string"
+    },
+    "SecondaryLanguageID": {
+      "type": "number"
+    },
+    "SecondaryLanguage": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

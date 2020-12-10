@@ -1,0 +1,24 @@
+{
+  "name": "OfficeInserviceTopic",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "InserviceTopicID": {
+      "type": "number"
+    },
+    "OfficeID": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

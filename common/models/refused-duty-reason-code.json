@@ -1,0 +1,23 @@
+{
+  "name": "RefusedDutyReasonCode",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "RefusedDutyReasonInfo": {
+      "type": [
+        "RefusedDutyReasonInfo"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

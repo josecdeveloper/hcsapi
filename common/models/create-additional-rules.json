@@ -1,0 +1,23 @@
+{
+  "name": "CreateAdditionalRules",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AdditionalRule": {
+      "type": [
+        "CreateAdditionalRule"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Invoice",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "BatchNumber": {
+      "type": "string"
+    },
+    "BatchID": {
+      "type": "number"
+    },
+    "InvoiceNumber": {
+      "type": "string"
+    },
+    "InvoiceID": {
+      "type": "number"
+    },
+    "InvoiceDate": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

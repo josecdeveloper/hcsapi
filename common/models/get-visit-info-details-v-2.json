@@ -1,0 +1,63 @@
+{
+  "name": "GetVisitInfoDetailsV2",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ID": {
+      "type": "number"
+    },
+    "VisitDate": {
+      "type": "string"
+    },
+    "Patient": {
+      "type": "Patient"
+    },
+    "Caregiver": {
+      "type": "NewCaregiver"
+    },
+    "ScheduleStartTime": {
+      "type": "string"
+    },
+    "ScheduleEndTime": {
+      "type": "string"
+    },
+    "VisitStartTime": {
+      "type": "string"
+    },
+    "VisitEndTime": {
+      "type": "string"
+    },
+    "EVVStartTime": {
+      "type": "string"
+    },
+    "EVVEndTime": {
+      "type": "string"
+    },
+    "IsMissedVisit": {
+      "type": "string"
+    },
+    "TTOT": {
+      "type": "TTOT"
+    },
+    "Verification": {
+      "type": "Verification"
+    },
+    "Timesheet": {
+      "type": "Timesheet"
+    },
+    "TasksPerformed": {
+      "type": "TasksPerformed"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

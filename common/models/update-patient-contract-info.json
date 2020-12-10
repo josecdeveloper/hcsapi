@@ -1,0 +1,66 @@
+{
+  "name": "UpdatePatientContractInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PatientID": {
+      "type": "number"
+    },
+    "PlacementID": {
+      "type": "number"
+    },
+    "UpdateAltPateintID": {
+      "type": "boolean"
+    },
+    "AltPateintID": {
+      "type": "string"
+    },
+    "UpdateStartDate": {
+      "type": "boolean"
+    },
+    "StartDate": {
+      "type": "dateTime"
+    },
+    "SourceOfAdmissionID": {
+      "type": "number"
+    },
+    "StartNote": {
+      "type": "string"
+    },
+    "UpdateServiceCode": {
+      "type": "boolean"
+    },
+    "ServiceCodeID": {
+      "type": "number"
+    },
+    "UpdateDischargeDate": {
+      "type": "boolean"
+    },
+    "DischargeDate": {
+      "type": "dateTime"
+    },
+    "DischargeToID": {
+      "type": "number"
+    },
+    "DischargeReasonID": {
+      "type": "number"
+    },
+    "DischargeNote": {
+      "type": "string"
+    },
+    "IsPrimaryContract": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

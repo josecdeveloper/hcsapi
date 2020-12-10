@@ -1,0 +1,24 @@
+{
+  "name": "GetPatientCaregiverPreferences",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Authentication": {
+      "type": "AppParams"
+    },
+    "GetPatientCaregiverPreferencesInfo": {
+      "type": "GetSchedulingPreferences"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

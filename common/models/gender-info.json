@@ -1,0 +1,30 @@
+{
+  "name": "GenderInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "GenderID": {
+      "type": "number"
+    },
+    "GenderName": {
+      "type": "string"
+    },
+    "GenderCode": {
+      "type": "string"
+    },
+    "GenderInitial": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

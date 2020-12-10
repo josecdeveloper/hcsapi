@@ -1,0 +1,30 @@
+{
+  "name": "CaregiverPreferenceDetails",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PreferenceID": {
+      "type": "number"
+    },
+    "PreferenceName": {
+      "type": "string"
+    },
+    "PreferenceValue": {
+      "type": "string"
+    },
+    "PreferenceType": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

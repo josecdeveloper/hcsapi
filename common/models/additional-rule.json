@@ -1,0 +1,30 @@
+{
+  "name": "AdditionalRule",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AdditionalRuleID": {
+      "type": "number"
+    },
+    "MaximumVisits": {
+      "type": "number"
+    },
+    "Period": {
+      "type": "PatientAuthPeriod"
+    },
+    "Hours": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

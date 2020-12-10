@@ -1,0 +1,45 @@
+{
+  "name": "ComplianceTrainingSchoolInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "TrainingSchoolID": {
+      "type": "number"
+    },
+    "TrainingSchoolName": {
+      "type": "string"
+    },
+    "CertificationDate": {
+      "type": "string"
+    },
+    "InstructorName": {
+      "type": "string"
+    },
+    "CertificationVerified": {
+      "type": "string"
+    },
+    "CertificationVerifiedDate": {
+      "type": "string"
+    },
+    "OnFile": {
+      "type": "string"
+    },
+    "Default": {
+      "type": "string"
+    },
+    "DisciplineText": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

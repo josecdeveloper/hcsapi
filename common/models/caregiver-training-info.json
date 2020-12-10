@@ -1,0 +1,45 @@
+{
+  "name": "CaregiverTrainingInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverID": {
+      "type": "number"
+    },
+    "TrainingSchoolID": {
+      "type": "number"
+    },
+    "CertificationDate": {
+      "type": "dateTime"
+    },
+    "DisciplineID": {
+      "type": "number"
+    },
+    "Instructor": {
+      "type": "string"
+    },
+    "Verified": {
+      "type": "string"
+    },
+    "VerificationDate": {
+      "type": "dateTime"
+    },
+    "OnFile": {
+      "type": "string"
+    },
+    "DefaultCertificate": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

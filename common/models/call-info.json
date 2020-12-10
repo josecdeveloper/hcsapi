@@ -1,0 +1,39 @@
+{
+  "name": "CallInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CallDashboardID": {
+      "type": "number"
+    },
+    "Caregiver": {
+      "type": "CallInfoCaregiver"
+    },
+    "Patient": {
+      "type": "CallInfoPatient"
+    },
+    "CallTime": {
+      "type": "string"
+    },
+    "CallType": {
+      "type": "string"
+    },
+    "CallStatus": {
+      "type": "string"
+    },
+    "DutiesPerformed": {
+      "type": "CallInfoDutiesPerformed"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

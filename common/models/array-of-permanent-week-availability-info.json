@@ -1,0 +1,23 @@
+{
+  "name": "ArrayOfPermanentWeekAvailabilityInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PermanentWeekAvailabilityInfo": {
+      "type": [
+        "PermanentWeekAvailabilityInfo"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

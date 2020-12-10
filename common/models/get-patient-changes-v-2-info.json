@@ -1,0 +1,225 @@
+{
+  "name": "GetPatientChangesV2Info",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AgencyID": {
+      "type": "number"
+    },
+    "OfficeID": {
+      "type": "number"
+    },
+    "PayerID": {
+      "type": "number"
+    },
+    "PatientID": {
+      "type": "number"
+    },
+    "ModifiedDate": {
+      "type": "string"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "MiddleName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "StatusID": {
+      "type": "number"
+    },
+    "AdmissionID": {
+      "type": "string"
+    },
+    "MRNumber": {
+      "type": "string"
+    },
+    "Gender": {
+      "type": "string"
+    },
+    "DateOfBirth": {
+      "type": "string"
+    },
+    "PriorityCode": {
+      "type": "string"
+    },
+    "AcceptedServices": {
+      "type": "string"
+    },
+    "MedicaidNumber": {
+      "type": "string"
+    },
+    "MedicareNumber": {
+      "type": "string"
+    },
+    "SSN": {
+      "type": "string"
+    },
+    "Address1": {
+      "type": "string"
+    },
+    "Address2": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "Zip5": {
+      "type": "string"
+    },
+    "Zip4": {
+      "type": "string"
+    },
+    "CrossStreet": {
+      "type": "string"
+    },
+    "Direction": {
+      "type": "string"
+    },
+    "HomePhone": {
+      "type": "string"
+    },
+    "Phone2": {
+      "type": "string"
+    },
+    "Phone2Description": {
+      "type": "string"
+    },
+    "Phone3": {
+      "type": "string"
+    },
+    "Phone3Description": {
+      "type": "string"
+    },
+    "WageParity": {
+      "type": "string"
+    },
+    "WageParityFromDate1": {
+      "type": "string"
+    },
+    "WageParityToDate1": {
+      "type": "string"
+    },
+    "WageParityFromDate2": {
+      "type": "string"
+    },
+    "WageParityToDate2": {
+      "type": "string"
+    },
+    "AlternateBilling": {
+      "type": "AlternateBillingV2"
+    },
+    "EmergencyContact1": {
+      "type": "EmergencyContactV2"
+    },
+    "EmergencyContact2": {
+      "type": "EmergencyContactV2"
+    },
+    "EmergencyPreparedness": {
+      "type": "EmergencyPreparednessV2"
+    },
+    "NurseID": {
+      "type": "number"
+    },
+    "Coordinators": {
+      "type": "CoordinatorsV2"
+    },
+    "Frequency": {
+      "type": "string"
+    },
+    "Cluster": {
+      "type": "string"
+    },
+    "IsMutualLinked": {
+      "type": "string"
+    },
+    "MutualLinkPatientID": {
+      "type": "number"
+    },
+    "IsPrimary": {
+      "type": "string"
+    },
+    "ServiceStartDate": {
+      "type": "string"
+    },
+    "ProjectedDCDate": {
+      "type": "string"
+    },
+    "SourceOfAdmissionID": {
+      "type": "number"
+    },
+    "LocationID": {
+      "type": "number"
+    },
+    "TeamID": {
+      "type": "number"
+    },
+    "BranchID": {
+      "type": "number"
+    },
+    "Alert": {
+      "type": "string"
+    },
+    "ReferralMasterId": {
+      "type": "number"
+    },
+    "ReferralReceivedDate": {
+      "type": "string"
+    },
+    "ReferralSourceId": {
+      "type": "number"
+    },
+    "ReferralStatus": {
+      "type": "string"
+    },
+    "ReferralLostReasonId": {
+      "type": "number"
+    },
+    "ReferralLostReasonNote": {
+      "type": "number"
+    },
+    "CommissionStatus": {
+      "type": "string"
+    },
+    "ReferralContactId": {
+      "type": "number"
+    },
+    "ReferralIntakePersonId": {
+      "type": "number"
+    },
+    "AccountManagerId": {
+      "type": "number"
+    },
+    "RequestSpecialAgencyID": {
+      "type": "number"
+    },
+    "RequestGender": {
+      "type": "string"
+    },
+    "RequestPrimaryLanguage": {
+      "type": "number"
+    },
+    "RequestSecondaryLanguage": {
+      "type": "number"
+    },
+    "RequestOther": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

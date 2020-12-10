@@ -1,0 +1,36 @@
+{
+  "name": "CreateCaregiverEmergencyContact",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Name": {
+      "type": "string"
+    },
+    "RelationshipID": {
+      "type": "number"
+    },
+    "OtherRelationship": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "Phone1": {
+      "type": "string"
+    },
+    "Phone2": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

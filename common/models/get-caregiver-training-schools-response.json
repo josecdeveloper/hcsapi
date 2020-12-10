@@ -1,0 +1,21 @@
+{
+  "name": "GetCaregiverTrainingSchoolsResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "GetCaregiverTrainingSchoolsResult": {
+      "type": "GetCaregiverTrainingSchoolResponse"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

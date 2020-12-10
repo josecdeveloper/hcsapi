@@ -1,0 +1,26 @@
+{
+  "name": "GetCaregiverGenderForPatientPreferenceResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Result": {
+      "type": "Result"
+    },
+    "GetCaregiverGenderForPatientPreferenceInfo": {
+      "type": [
+        "GetCaregiverGenderForPatientPreferenceInfo"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

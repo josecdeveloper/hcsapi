@@ -1,0 +1,42 @@
+{
+  "name": "ScheduleInfoResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ID": {
+      "type": "number"
+    },
+    "VisitDate": {
+      "type": "string"
+    },
+    "Patient": {
+      "type": "ScheduleInfoPatient"
+    },
+    "Caregiver": {
+      "type": "ScheduleInfoCaregiver"
+    },
+    "ScheduleStartTime": {
+      "type": "string"
+    },
+    "ScheduleEndTime": {
+      "type": "string"
+    },
+    "PrimaryBillTo": {
+      "type": "PrimaryBillTo"
+    },
+    "SecondaryBillTo": {
+      "type": "SecondaryBillTo"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

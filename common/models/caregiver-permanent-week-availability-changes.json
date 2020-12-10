@@ -1,0 +1,23 @@
+{
+  "name": "CaregiverPermanentWeekAvailabilityChanges",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PermanentWeekAvailabilityChangesInfo": {
+      "type": [
+        "CaregiverPermanentWeekAvailabilityChangesInfo"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

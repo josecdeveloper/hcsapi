@@ -1,0 +1,21 @@
+{
+  "name": "GetVisitInfoV2Response",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "GetVisitInfoV2Result": {
+      "type": "GetVisitInfoResponseV2"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

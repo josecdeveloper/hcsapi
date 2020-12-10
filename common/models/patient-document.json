@@ -1,0 +1,45 @@
+{
+  "name": "PatientDocument",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PatientDocID": {
+      "type": "number"
+    },
+    "PatientID": {
+      "type": "number"
+    },
+    "PatientDocumentTypeID": {
+      "type": "number"
+    },
+    "PatientDocumentType": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "FileName": {
+      "type": "string"
+    },
+    "CreatedBy": {
+      "type": "string"
+    },
+    "CreatedOn": {
+      "type": "dateTime"
+    },
+    "FileSize": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,51 @@
+{
+  "name": "CaregiverPreferencesInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CaregiverID": {
+      "type": "number"
+    },
+    "LanguageID1": {
+      "type": "number"
+    },
+    "Language1": {
+      "type": "string"
+    },
+    "LanguageID2": {
+      "type": "number"
+    },
+    "Language2": {
+      "type": "string"
+    },
+    "LanguageID3": {
+      "type": "number"
+    },
+    "Language3": {
+      "type": "string"
+    },
+    "LanguageID4": {
+      "type": "number"
+    },
+    "Language4": {
+      "type": "string"
+    },
+    "Other": {
+      "type": "string"
+    },
+    "Preferences": {
+      "type": "CaregiverPreferences"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,23 @@
+{
+  "name": "SpecialAvailability",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "SpecialAvailabilityInfo": {
+      "type": [
+        "SpecialAvailabilityInfo"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

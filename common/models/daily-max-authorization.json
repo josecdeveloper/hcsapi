@@ -1,0 +1,39 @@
+{
+  "name": "DailyMaxAuthorization",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Sunday": {
+      "type": "number"
+    },
+    "Monday": {
+      "type": "number"
+    },
+    "Tuesday": {
+      "type": "number"
+    },
+    "Wednesday": {
+      "type": "number"
+    },
+    "Thursday": {
+      "type": "number"
+    },
+    "Friday": {
+      "type": "number"
+    },
+    "Saturday": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,51 @@
+{
+  "name": "PatientNoteInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PatientID": {
+      "type": "number"
+    },
+    "ReasonID": {
+      "type": "number"
+    },
+    "NoteType": {
+      "type": "string"
+    },
+    "FromDate": {
+      "type": "dateTime"
+    },
+    "ToDate": {
+      "type": "dateTime"
+    },
+    "EmergencyOfPriroity": {
+      "type": "string"
+    },
+    "Internal": {
+      "type": "string"
+    },
+    "Note": {
+      "type": "string"
+    },
+    "CaregiverID": {
+      "type": "number"
+    },
+    "SubjectID": {
+      "type": "number"
+    },
+    "EmailTo": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
