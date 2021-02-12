@@ -1,23 +1,17 @@
-// pipeline {
-//     agent any
+pipeline {
 
-//     stages {
-//         stage("build") {
-//             steps {
-//                 echo 'Building app...'
-//             }
-//         }
+    agent {
+        docker {
+            image 'node'
+            args '-p 3000:3000'
+        }
+    }
 
-//         stage("test") {
-//             steps {
-//                 echo 'testing app...'
-//             }
-//         }
-
-//         stage("deply") {
-//             steps {
-//                 echo 'deploying app...'
-//             }
-//         }
-//     }
-// }
+    stages {
+        stage("Build") {
+            steps {
+                sh 'npm install'
+            }
+        }
+    }
+}
