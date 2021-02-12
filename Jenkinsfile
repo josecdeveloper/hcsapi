@@ -13,10 +13,12 @@ pipeline {
             }
         }
 
-        stage('Test') {
+        stage('Deliver') {
             steps {
-                sh 'npm run posttest'
+                sh 'npm start'
             }
         }
+
+
     }
 }
