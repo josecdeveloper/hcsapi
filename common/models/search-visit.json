@@ -10,12 +10,6 @@
     "id"
   ],
   "properties": {
-    "StartDate": {
-      "type": "dateTime"
-    },
-    "EndDate": {
-      "type": "dateTime"
-    },
     "PatientID": {
       "type": "number"
     },
